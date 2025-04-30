@@ -52,3 +52,310 @@ O **Amazon EFS (Elastic File System)** é um serviço de armazenamento de arquiv
 **Resumo**: O EFS é crucial para ambientes distribuídos, garantindo **dados persistentes e compartilhados**, especialmente em arquiteturas **stateless** que dependem de armazenamento externo.
 ---
 
+**CONFIGURAÇÃO DO SECURITY GROUP EC2 PÚBLICO**
+
+INBOUND RULES:
+<table>
+  
+  <thead>
+    <tr>
+      <th>TIPO
+      </th>
+      <th>
+        INTERVALO DE PORTAS
+      </th>
+      <th>
+        ORIGEM
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>SHH</td>
+      <td>22</td>
+      <td>Meu IP</td>
+    </tr>
+    <tr>
+      <td>HTTP</td>
+      <td>80</td>
+      <td>0.0.0.0/0</td>
+    </tr>
+  </table>
+
+OUTBOUND RULES:
+
+
+<table>
+  
+  <thead>
+    <tr>
+      <th>TIPO
+      </th>
+      <th>
+        INTERVALO DE PORTAS
+      </th>
+      <th>
+        ORIGEM
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Todo o tráfego</td>
+      <td>Tudo</td>
+      <td>0.0.0.0/0</td>
+    </tr>
+  </tbody>
+</table>
+  
+ <hr>
+      
+**CONFIGURAÇÃO DO SECURITY GROUP EC2 PRIVADO**  
+
+
+INBOUND RULES:
+<table>
+  
+  <thead>
+    <tr>
+      <th>TIPO
+      </th>
+      <th>
+        INTERVALO DE PORTAS
+      </th>
+      <th>
+        ORIGEM
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>SHH</td>
+      <td>22</td>
+      <td>Security Group da EC2 Pública</td>
+    </tr>
+    <tr>
+      <td>NFS</td>
+      <td>2049</td>
+      <td>Security Group do EFS</td>
+    </tr>
+    <tr>
+      <td>HTTP</td>
+      <td>80</td>
+      <td>Security Group do ELB</td>
+    </tr>
+    <tr>
+      <td>MYSQL/Aurora</td>
+      <td>3306</td>
+      <td>Security Group do RDS</td>
+    </tr>
+  </tbody>
+</table>
+
+
+OUTBOUND RULES:
+
+
+<table>
+  
+  <thead>
+    <tr>
+      <th>TIPO
+      </th>
+      <th>
+        INTERVALO DE PORTAS
+      </th>
+      <th>
+        ORIGEM
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HTTP</td>
+      <td>80</td>
+      <td>0.0.0.0/0</td>
+    </tr>
+    <tr>
+      <td>MYSQL/Aurora</td>
+      <td>3306</td>
+      <td>Security Group do RDS</td>
+    </tr>
+    <tr>
+      <td>NFS</td>
+      <td>2049</td>
+      <td>Security Group do EFS</td>
+    </tr>
+    <tr>
+      <td>Todo o tráfego</td>
+      <td>Tudo</td>
+      <td>0.0.0.0/0</td>
+    </tr>
+  </tbody>
+</table>
+</br>
+<hr>
+<b>CONFIGURAÇÃO DO SECURITY GROUP DA RDS: </b>
+<br>
+
+INBOUND RULES:
+
+
+<table>
+  <thead>
+    <tr>
+      <th>TIPO
+      </th>
+      <th>
+        INTERVALO DE PORTAS
+      </th>
+      <th>
+        ORIGEM
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MYSQL/Aurora</td>
+      <td>3306</td>
+      <td>Security Group da EC2</td>
+    </tr>
+  </tbody>
+</table>
+
+
+OUTBOUND RULES:
+
+
+<table>
+  <thead>
+    <tr>
+      <th>TIPO
+      </th>
+      <th>
+        INTERVALO DE PORTAS
+      </th>
+      <th>
+        ORIGEM
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Todo o tráfego</td>
+      <td>Todas</td>
+      <td>0.0.0.0/0</td>
+    </tr>
+  </tbody>
+</table>
+</br>
+<hr>
+<b>CONFIGURAÇÃO DO SECURITY GROUP DA EFS: </b></br>
+
+
+INBOUND RULES:
+
+
+<table>
+  <thead>
+    <tr>
+      <th>TIPO
+      </th>
+      <th>
+        INTERVALO DE PORTAS
+      </th>
+      <th>
+        ORIGEM
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NFS</td>
+      <td>2049</td>
+      <td>Security Group da EC2</td>
+    </tr>
+  </tbody>
+</table>
+
+
+OUTBOUND RULES:
+
+
+<table>
+  <thead>
+    <tr>
+      <th>TIPO
+      </th>
+      <th>
+        INTERVALO DE PORTAS
+      </th>
+      <th>
+        ORIGEM
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Todo o tráfegos</td>
+      <td>Todas</td>
+      <td>0.0.0.0/0</td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+<b>CONFIGURAÇÃO DO SECURITY GROUP DA ELB: </b></br>
+
+
+INBOUND RULES:
+
+
+<table>
+  <thead>
+    <tr>
+      <th>TIPO
+      </th>
+      <th>
+        INTERVALO DE PORTAS
+      </th>
+      <th>
+        ORIGEM
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HTTP</td>
+      <td>80</td>
+      <td>0.0.0.0/0</td>
+    </tr>
+  </tbody>
+</table>
+
+
+OUTBOUND RULES:
+
+
+<table>
+  <thead>
+    <tr>
+      <th>TIPO
+      </th>
+      <th>
+        INTERVALO DE PORTAS
+      </th>
+      <th>
+        ORIGEM
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HTTP</td>
+      <td>80</td>
+      <td>0.0.0.0/0</td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+
