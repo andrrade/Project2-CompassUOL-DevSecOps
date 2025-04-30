@@ -7,12 +7,7 @@
 
 # Sumário 📝
 
-- [PDF dos Exercícios](https://github.com/andrrade/Docker-Exercises-CompassUOL/blob/main/ExerciciosDocker2025.pdf)
-
-## 🟢 Fácil
-
-- [1º Exercício](https://github.com/andrrade/Docker-Exercises-CompassUOL/blob/main/resolucao-exercicios/01-facil/exe01/README.md)
-- [2º Exercício](https://github.com/andrrade/Docker-Exercises-CompassUOL/blob/main/resolucao-exercicios/01-facil/exe02/README.md)
+- [1º Teste local](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/01-Teste/README.md)
 
 Configurações da minha máquina:
 Estou usando o linux pop_OS versão (colocar o nome da versão)
