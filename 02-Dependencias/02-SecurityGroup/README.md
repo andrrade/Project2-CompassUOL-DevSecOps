@@ -23,6 +23,28 @@
 
 ![image](https://github.com/user-attachments/assets/5f246352-1646-4af6-ac44-23f28c104ab9)
 
+![image](https://github.com/user-attachments/assets/b02aba45-030a-4b66-b464-6587a74b6770)
+
+![image](https://github.com/user-attachments/assets/a97fb132-10c3-4d6d-966f-1d7ba8b96a6f)
+
+![image](https://github.com/user-attachments/assets/adae238c-2760-404d-a026-494316c1c806)
+
+![image](https://github.com/user-attachments/assets/dc6ab432-3da0-4c49-8856-f3e1614568cf)
+
+![image](https://github.com/user-attachments/assets/fc4ad4bd-5612-49d3-9b77-c8eb242b8e8d)
+
+![image](https://github.com/user-attachments/assets/728e5464-8e9c-408b-a1e8-504685be4c9a)
+
+![image](https://github.com/user-attachments/assets/6aeea532-2c83-4334-bb55-a812fb6b4bc4)
+
+![image](https://github.com/user-attachments/assets/ff072b28-5007-4791-bdff-9710d660bffb)
+
+![image](https://github.com/user-attachments/assets/1c61d783-468f-4cc6-a403-a06de00ba160)
+
+![image](https://github.com/user-attachments/assets/db7fd2b4-4a64-416a-818b-4450c9f9148f)
+
+![image](https://github.com/user-attachments/assets/db4a7754-0703-4877-ad36-e383dfa4ffb5)
+
 **CONFIGURAÇÃO DO SECURITY GROUP EC2 PÚBLICO**
 
 INBOUND RULES:
