@@ -73,4 +73,14 @@ O **Amazon EFS (Elastic File System)** é um serviço de armazenamento de arquiv
 
 ![image](https://github.com/user-attachments/assets/169a6d03-4bdf-4bce-b9d5-39a93330c232)
 
+![image](https://github.com/user-attachments/assets/87dc1cc0-cb04-48a4-a743-38a4084fc37c)
+
+![image](https://github.com/user-attachments/assets/1a076a55-53e8-4416-9436-5b1c902baa3a)
+
+![image](https://github.com/user-attachments/assets/4af8ad2f-e55f-4288-833a-15de4cfd36c9)
+
+![image](https://github.com/user-attachments/assets/2adf4f5f-44b2-4dd5-a412-0456c4f04254)
+
+
+
 
