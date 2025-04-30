@@ -1,4 +1,4 @@
-> [!WARNING]
+![image](https://github.com/user-attachments/assets/4b6f93ea-ddeb-49a0-a13b-6735163f5f7e)> [!WARNING]
 > Projeto ainda em andamento
 
 <p align="center">
@@ -72,6 +72,12 @@ O **Amazon EFS (Elastic File System)** é um serviço de armazenamento de arquiv
 ---
 
 # SG
+
+![image](https://github.com/user-attachments/assets/13e8b4fc-7c49-4176-be81-09a8e2158da2)
+
+![image](https://github.com/user-attachments/assets/ec455d28-ee7d-4494-b155-69075d001be2)
+
+
 
 **CONFIGURAÇÃO DO SECURITY GROUP EC2 PÚBLICO**
 
@@ -379,5 +385,22 @@ OUTBOUND RULES:
   </tbody>
 </table>
 <hr>
+
+![image](https://github.com/user-attachments/assets/cdd1f5f1-964c-4d7b-b73c-f52b06d87157)
+
+![image](https://github.com/user-attachments/assets/066ac162-be6c-4b64-975a-e536dc58d2fe)
+
+![image](https://github.com/user-attachments/assets/410b4146-982e-4550-884f-5aa1d1774ffc)
+
+![image](https://github.com/user-attachments/assets/0e6e5606-187c-4f56-bb2e-d7b007d595a8)
+
+![image](https://github.com/user-attachments/assets/e39fdbfb-dacf-4e02-b8fa-4819cc820294)
+
+![image](https://github.com/user-attachments/assets/1ad457d8-aaee-45c9-998e-22a2941a2329)
+
+![image](https://github.com/user-attachments/assets/05f303ba-a59d-454c-8540-c3b084add7c2)
+
+![image](https://github.com/user-attachments/assets/5f246352-1646-4af6-ac44-23f28c104ab9)
+
 
 
