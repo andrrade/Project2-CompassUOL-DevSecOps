@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/4b6f93ea-ddeb-49a0-a13b-6735163f5f7e)> [!WARNING]
+> [!WARNING]
 > Projeto ainda em andamento
 
 <p align="center">
