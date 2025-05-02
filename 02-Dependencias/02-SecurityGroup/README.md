@@ -160,7 +160,7 @@
 
 ![image](https://github.com/user-attachments/assets/fc4ad4bd-5612-49d3-9b77-c8eb242b8e8d)
 
-## Criação de SGs (parte 15) - IR EC2 Privada
+## Criação de SGs (parte 15) - IR RDS
 
 1. Clique em `Add rule`
 
@@ -168,12 +168,17 @@
 
 ![image](https://github.com/user-attachments/assets/728e5464-8e9c-408b-a1e8-504685be4c9a)
 
+## Criação de SGs (parte 16) - OR RDS
+
 ![image](https://github.com/user-attachments/assets/6aeea532-2c83-4334-bb55-a812fb6b4bc4)
 
+## Criação de SGs (parte 17) - OR RDS
 ![image](https://github.com/user-attachments/assets/ff072b28-5007-4791-bdff-9710d660bffb)
 
+## Criação de SGs (parte 18) - IR EFS
 ![image](https://github.com/user-attachments/assets/1c61d783-468f-4cc6-a403-a06de00ba160)
 
+## Criação de SGs (parte 19) - OR EFS
 ![image](https://github.com/user-attachments/assets/db7fd2b4-4a64-416a-818b-4450c9f9148f)
 
 ![image](https://github.com/user-attachments/assets/db4a7754-0703-4877-ad36-e383dfa4ffb5)
