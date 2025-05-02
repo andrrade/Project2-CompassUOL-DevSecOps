@@ -1,4 +1,7 @@
-# VPC
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/43b15b8f-000c-4a59-b272-b0f13a465274" alt="Img VPC" width="100">
+</p>
+<br>
 
 Imagem de referência que está no enunciado: 
 
@@ -57,3 +60,6 @@ Mostrando como fica o preview:
 1. Clique em `Create VPC`
 
 ![image](https://github.com/user-attachments/assets/97a23f6f-1d1a-4bde-9e47-aaf71d3dca05)
+
+> [!NOTE]
+> Após esses passos, você terá criado sua VPC corretamente!
