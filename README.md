@@ -17,10 +17,38 @@
   - [RDS](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/02-Dependencias/03-Banco-de-Dados-RDS/README.md)
   - [EFS](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/02-Dependencias/04-EFS/README.md)
 
-Configurações da minha máquina:
-Estou usando o linux pop_OS versão (colocar o nome da versão)
-Tenho o rancher desktop instalado
-E o docker também
+---
+
+## 👣 1º Passo: Configuração do Ambiente
+
+### 💻 Dependendo do seu sistema operacional, siga as orientações abaixo:
+
+---
+
+### 🪟 **Windows**
+
+* **Sistema Operacional:** Windows 10/11
+* **WSL:** [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/) com [Ubuntu 25.04.1 LTS](https://documentation.ubuntu.com/server/)
+* **Gerenciador de Containers:** [Rancher Desktop](https://rancherdesktop.io/) — alternativa gratuita ao [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+* **Editor de Código:** [Visual Studio Code](https://code.visualstudio.com/)
+
+---
+
+### 🍏 **macOS**
+
+* **Sistema Operacional:** macOS Monterey ou superior
+* **Gerenciador de Containers:** [Rancher Desktop](https://rancherdesktop.io/) ou [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+* **Editor de Código:** [Visual Studio Code](https://code.visualstudio.com/)
+
+---
+
+### 🐧 **Linux (ex: Ubuntu, Pop!\_OS, Fedora)**
+
+* **Gerenciador de Containers:** [Rancher Desktop](https://rancherdesktop.io/) ou [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+* **Docker:** Também instalado separadamente para controle direto via CLI
+* **Editor de Código:** [Visual Studio Code](https://code.visualstudio.com/)
+
+---
 
 # Realizando teste 1
 1. Subir o wordpress na EC2
