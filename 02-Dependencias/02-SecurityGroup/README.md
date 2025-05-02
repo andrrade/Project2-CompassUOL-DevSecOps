@@ -41,7 +41,7 @@
 
 3. Selecione a VPC criada nos passos anteriores
 
-![image](https://github.com/user-attachments/assets/cdd1f5f1-964c-4d7b-b73c-f52b06d87157)
+IMAGEM DO SG DAS EC2
 
 ## Criação de SGs (parte 4)
 
@@ -100,7 +100,7 @@
 
 2. Clique no ID do sg
 
-![image](https://github.com/user-attachments/assets/05f303ba-a59d-454c-8540-c3b084add7c2)
+IMAGEM PESQUISANDO O NOME DO SG
 
 ## Criação de SGs (parte 10)
 
@@ -224,149 +224,8 @@
 ![image](https://github.com/user-attachments/assets/db4a7754-0703-4877-ad36-e383dfa4ffb5)
 
 # Configuração dos Security Groups
-
-## EC2 Público
-
-INBOUND RULES:
-<table>
   
-  <thead>
-    <tr>
-      <th>TIPO
-      </th>
-      <th>
-        INTERVALO DE PORTAS
-      </th>
-      <th>
-        ORIGEM
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>SHH</td>
-      <td>22</td>
-      <td>Meu IP</td>
-    </tr>
-    <tr>
-      <td>HTTP</td>
-      <td>80</td>
-      <td>0.0.0.0/0</td>
-    </tr>
-  </table>
-
-OUTBOUND RULES:
-
-
-<table>
-  
-  <thead>
-    <tr>
-      <th>TIPO
-      </th>
-      <th>
-        INTERVALO DE PORTAS
-      </th>
-      <th>
-        ORIGEM
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Todo o tráfego</td>
-      <td>Tudo</td>
-      <td>0.0.0.0/0</td>
-    </tr>
-  </tbody>
-</table>
-  
- <hr>
-      
-## EC2 Privado
-
-INBOUND RULES:
-<table>
-  
-  <thead>
-    <tr>
-      <th>TIPO
-      </th>
-      <th>
-        INTERVALO DE PORTAS
-      </th>
-      <th>
-        ORIGEM
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>SHH</td>
-      <td>22</td>
-      <td>Security Group da EC2 Pública</td>
-    </tr>
-    <tr>
-      <td>NFS</td>
-      <td>2049</td>
-      <td>Security Group do EFS</td>
-    </tr>
-    <tr>
-      <td>HTTP</td>
-      <td>80</td>
-      <td>Security Group do ELB</td>
-    </tr>
-    <tr>
-      <td>MYSQL/Aurora</td>
-      <td>3306</td>
-      <td>Security Group do RDS</td>
-    </tr>
-  </tbody>
-</table>
-
-
-OUTBOUND RULES:
-
-
-<table>
-  
-  <thead>
-    <tr>
-      <th>TIPO
-      </th>
-      <th>
-        INTERVALO DE PORTAS
-      </th>
-      <th>
-        ORIGEM
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>HTTP</td>
-      <td>80</td>
-      <td>0.0.0.0/0</td>
-    </tr>
-    <tr>
-      <td>MYSQL/Aurora</td>
-      <td>3306</td>
-      <td>Security Group do RDS</td>
-    </tr>
-    <tr>
-      <td>NFS</td>
-      <td>2049</td>
-      <td>Security Group do EFS</td>
-    </tr>
-    <tr>
-      <td>Todo o tráfego</td>
-      <td>Tudo</td>
-      <td>0.0.0.0/0</td>
-    </tr>
-  </tbody>
-</table>
-</br>
-<hr>
+## EC2 
 
 ## RDS
 
@@ -526,3 +385,60 @@ OUTBOUND RULES:
   </tbody>
 </table>
 <hr>
+
+| Recurso                | Regras de Segurança                                                                                              |
+|------------------------|------------------------------------------------------------------------------------------------------------------|
+| **1. Instâncias EC2**  | Utilizam o SG das Instâncias EC2 (ver 3.1)                                                                       |
+| **2. Banco de Dados**  | Utiliza o SG do Banco de Dados (ver 3.2)                                                                         |
+| **3. Elastic File System** | Utiliza o SG do Elastic File System (ver 3.4)                                                              |
+| **4. Load Balancer**   | Utiliza o SG do Load Balancer (ver 3.3)                                                                          |
+
+## SG das Instâncias EC2
+
+| Tipo      | Porta | Source Type | Source                         |
+|-----------|-------|-------------|--------------------------------|
+| HTTP      | 80    | Custom      | SG do Load Balancer            |
+| HTTPS     | 443   | Custom      | SG do Load Balancer            |
+
+**Outbound Rules**
+
+| Tipo         | Porta | Destination Type | Destination   |
+|--------------|-------|------------------|---------------|
+| All traffic  | All   | Custom           | 0.0.0.0/0     |
+
+## SG do Banco de Dados
+
+| Tipo           | Porta | Source Type | Source                |
+|----------------|-------|-------------|-----------------------|
+| MySQL/Aurora   | 3306  | Custom      | SG das Instâncias     |
+
+**Outbound Rules**
+
+| Tipo           | Porta | Destination Type | Destination   |
+|----------------|-------|------------------|---------------|
+| MySQL/Aurora   | 3306  | Anywhere IPv4    | 0.0.0.0/0     |
+
+## SG do Load Balancer
+
+| Tipo   | Porta | Source Type     | Source     |
+|--------|-------|------------------|------------|
+| HTTP   | 80    | Anywhere-IPv4    | 0.0.0.0/0  |
+| HTTPS  | 443   | Anywhere-IPv4    | 0.0.0.0/0  |
+
+**Outbound Rules**
+
+| Tipo         | Porta | Destination Type | Destination   |
+|--------------|-------|------------------|---------------|
+| All traffic  | All   | Anywhere-IPv4    | 0.0.0.0/0     |
+
+## SG do Elastic File System
+
+| Tipo | Porta | Source Type | Source              |
+|------|-------|-------------|---------------------|
+| NFS  | 2049  | Custom      | SG das Instâncias   |
+
+**Outbound Rules**
+
+| Tipo         | Porta | Destination Type | Destination   |
+|--------------|-------|------------------|---------------|
+| All Traffic  | All   | Anywhere IPv4    | 0.0.0.0/0     |
