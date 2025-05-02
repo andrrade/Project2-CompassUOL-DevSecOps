@@ -5,23 +5,85 @@
 
 # Security Groups
 
+## Criação de SGs (parte 1)
+
+1. Abra o painel principal da AWS e pesquise por `VPC`
+
+2. Clique em `Security groups`
+
 ![image](https://github.com/user-attachments/assets/13e8b4fc-7c49-4176-be81-09a8e2158da2)
+
+## Criação de SGs (parte 2)
+
+1. Clique em `Create security groups`
 
 ![image](https://github.com/user-attachments/assets/ec455d28-ee7d-4494-b155-69075d001be2)
 
+## Criação de SGs (parte 3) - EC2 Pública
+
+1. Dê um nome para o security group
+
+2. Dê uma descrição
+
+3. Selecione a VPC criada nos passos anteriores
+
 ![image](https://github.com/user-attachments/assets/cdd1f5f1-964c-4d7b-b73c-f52b06d87157)
+
+## Criação de SGs (parte 4)
+
+1. Clique em `Create security group`
 
 ![image](https://github.com/user-attachments/assets/066ac162-be6c-4b64-975a-e536dc58d2fe)
 
+## Criação de SGs (parte 5) - EC2 Privada
+
+1. Dê um nome para o security group
+
+2. Dê uma descrição
+
+3. Selecione a VPC criada nos passos anteriores
+
+4. Clique em `Create security group`
+
 ![image](https://github.com/user-attachments/assets/410b4146-982e-4550-884f-5aa1d1774ffc)
+
+## Criação de SGs (parte 6) - RDS
+
+1. Dê um nome para o security group
+
+2. Dê uma descrição
+
+3. Selecione a VPC criada nos passos anteriores
+
+4. Clique em `Create security group`
 
 ![image](https://github.com/user-attachments/assets/0e6e5606-187c-4f56-bb2e-d7b007d595a8)
 
+## Criação de SGs (parte 7) - EFS
+
+1. Dê um nome para o security group
+
+2. Dê uma descrição
+
+3. Selecione a VPC criada nos passos anteriores
+
+4. Clique em `Create security group`
+
 ![image](https://github.com/user-attachments/assets/e39fdbfb-dacf-4e02-b8fa-4819cc820294)
+
+## Criação de SGs (parte 8) - EFS
+
+1. Dê um nome para o security group
+
+2. Dê uma descrição
+
+3. Selecione a VPC criada nos passos anteriores
+
+4. Clique em `Create security group`
 
 ![image](https://github.com/user-attachments/assets/1ad457d8-aaee-45c9-998e-22a2941a2329)
 
-![image](https://github.com/user-attachments/assets/4b6f93ea-ddeb-49a0-a13b-6735163f5f7e)
+
 
 ![image](https://github.com/user-attachments/assets/05f303ba-a59d-454c-8540-c3b084add7c2)
 
