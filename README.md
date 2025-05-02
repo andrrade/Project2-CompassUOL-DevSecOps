@@ -16,7 +16,9 @@
 
 # Sumário 📝
 
-- [Teste local](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/01-Teste/README.md)
+- [Teste local](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/tree/main/01-Teste)
+  - [Wordpress](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/01-Teste/01-Wordpress/README.md)
+  - [EC2](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/01-Teste/02-EC2/README.MD)
 - [Dependências](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/tree/main/02-Dependencias)
   - [VPC](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/02-Dependencias/01-VPC/README.md)
   - [Security Group](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/02-Dependencias/02-SecurityGroup/README.md)
@@ -87,8 +89,6 @@ O **Amazon EFS (Elastic File System)** é um serviço de armazenamento de arquiv
 **Resumo**: O EFS é crucial para ambientes distribuídos, garantindo **dados persistentes e compartilhados**, especialmente em arquiteturas **stateless** que dependem de armazenamento externo.
 
 ---
-
-ec2
 
 
 
