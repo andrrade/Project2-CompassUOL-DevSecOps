@@ -93,7 +93,36 @@ efs
 
 ![image](https://github.com/user-attachments/assets/f7c30818-2e3c-40e1-87ac-9f47beb8c746)
 
+---
 
+key pairs
 
+![image](https://github.com/user-attachments/assets/3647d82f-58fe-44f9-bd64-a68206812e04)
+
+![image](https://github.com/user-attachments/assets/f190a7f3-8566-4084-89b8-61f7c555f72e)
+
+![image](https://github.com/user-attachments/assets/ae7c614a-fb9c-4f82-bd92-921afb959020)
+
+---
+
+ec2
+
+![image](https://github.com/user-attachments/assets/57cf53dd-ba41-405b-8cb1-02ed0d9ff973)
+
+![image](https://github.com/user-attachments/assets/a8f42042-9f2c-451b-a376-07ff17a43cca)
+
+![image](https://github.com/user-attachments/assets/e58acf24-7006-4ed4-a727-7e3216ceff9c)
+
+![image](https://github.com/user-attachments/assets/dcdef3e7-b73e-4ec6-8beb-2523f40aabeb)
+
+![image](https://github.com/user-attachments/assets/c65b014b-1032-4a5c-a991-e4eaabd5db76)
+
+![image](https://github.com/user-attachments/assets/cbc51290-3f90-432b-8b15-b5aca3323a94)
+
+![image](https://github.com/user-attachments/assets/14607bbf-d7d2-4c8a-b2cb-fd337dbc37a9)
+
+---
+
+efs
 
 
