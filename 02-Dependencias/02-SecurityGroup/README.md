@@ -354,7 +354,7 @@ INBOUND RULES:
     <tr>
       <td>MYSQL/Aurora</td>
       <td>3306</td>
-      <td>Security Group da EC2</td>
+      <td>Security Group da EC2 Privada</td>
     </tr>
   </tbody>
 </table>
@@ -408,7 +408,7 @@ INBOUND RULES:
     <tr>
       <td>NFS</td>
       <td>2049</td>
-      <td>Security Group da EC2</td>
+      <td>Security Group da EC2 Privada</td>
     </tr>
   </tbody>
 </table>
