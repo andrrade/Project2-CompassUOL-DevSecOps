@@ -1,5 +1,5 @@
 # VPC
-
+![alt text](../../img-project2.png)
 ![image](https://github.com/user-attachments/assets/8316e4b2-504e-47d1-adee-1d397706c281)
 
 ![image](https://github.com/user-attachments/assets/0acc30f5-9cfc-44ae-805c-721f32004aaf)
