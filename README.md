@@ -6,13 +6,13 @@
 </p>
 <br>
 
-# Avaliação 3 - Wordpress na AWS 🌐☁️
-
 <div align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=aws,linux,docker,wordpress" alt="My Skills" />
   </a>
 </div>
+
+# Avaliação 3 - Wordpress na AWS 🌐☁️
 
 # Sumário 📝
 
