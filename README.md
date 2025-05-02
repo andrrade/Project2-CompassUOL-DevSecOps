@@ -52,6 +52,13 @@ O **Amazon EFS (Elastic File System)** é um serviço de armazenamento de arquiv
 **Resumo**: O EFS é crucial para ambientes distribuídos, garantindo **dados persistentes e compartilhados**, especialmente em arquiteturas **stateless** que dependem de armazenamento externo.
 
 ---
+vpc
+![image](https://github.com/user-attachments/assets/d432e64c-370c-45e3-8c94-fa298b23c337)
+
+efs
+![image](https://github.com/user-attachments/assets/4dc1d97f-7bb7-4152-894e-8001b8488a60)
+
+![image](https://github.com/user-attachments/assets/f7c30818-2e3c-40e1-87ac-9f47beb8c746)
 
 
 
