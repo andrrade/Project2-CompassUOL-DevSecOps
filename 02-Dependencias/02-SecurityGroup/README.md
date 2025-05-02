@@ -188,7 +188,9 @@
 
 ![image](https://github.com/user-attachments/assets/db4a7754-0703-4877-ad36-e383dfa4ffb5)
 
-**CONFIGURAÇÃO DO SECURITY GROUP EC2 PÚBLICO**
+# Configuração dos Security Groups
+
+## EC2 Público
 
 INBOUND RULES:
 <table>
@@ -246,8 +248,7 @@ OUTBOUND RULES:
   
  <hr>
       
-**CONFIGURAÇÃO DO SECURITY GROUP EC2 PRIVADO**  
-
+## EC2 Privado
 
 INBOUND RULES:
 <table>
@@ -331,11 +332,10 @@ OUTBOUND RULES:
 </table>
 </br>
 <hr>
-<b>CONFIGURAÇÃO DO SECURITY GROUP DA RDS: </b>
-<br>
+
+## RDS
 
 INBOUND RULES:
-
 
 <table>
   <thead>
@@ -386,11 +386,10 @@ OUTBOUND RULES:
 </table>
 </br>
 <hr>
-<b>CONFIGURAÇÃO DO SECURITY GROUP DA EFS: </b></br>
 
+## EFS
 
 INBOUND RULES:
-
 
 <table>
   <thead>
@@ -440,11 +439,10 @@ OUTBOUND RULES:
   </tbody>
 </table>
 <hr>
-<b>CONFIGURAÇÃO DO SECURITY GROUP DA ELB: </b></br>
 
+## ELB
 
 INBOUND RULES:
-
 
 <table>
   <thead>
@@ -470,7 +468,6 @@ INBOUND RULES:
 
 
 OUTBOUND RULES:
-
 
 <table>
   <thead>
