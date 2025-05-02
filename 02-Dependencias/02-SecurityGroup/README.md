@@ -172,14 +172,19 @@
 
 ![image](https://github.com/user-attachments/assets/6aeea532-2c83-4334-bb55-a812fb6b4bc4)
 
-## Criação de SGs (parte 17) - OR RDS
+## Criação de SGs (parte 17) - IR EFS
+
 ![image](https://github.com/user-attachments/assets/ff072b28-5007-4791-bdff-9710d660bffb)
 
-## Criação de SGs (parte 18) - IR EFS
+## Criação de SGs (parte 18) - OR EFS
+
 ![image](https://github.com/user-attachments/assets/1c61d783-468f-4cc6-a403-a06de00ba160)
 
-## Criação de SGs (parte 19) - OR EFS
+## Criação de SGs (parte 19) - IR ELB
+
 ![image](https://github.com/user-attachments/assets/db7fd2b4-4a64-416a-818b-4450c9f9148f)
+
+## Criação de SGs (parte 20) - OR ELB
 
 ![image](https://github.com/user-attachments/assets/db4a7754-0703-4877-ad36-e383dfa4ffb5)
 
