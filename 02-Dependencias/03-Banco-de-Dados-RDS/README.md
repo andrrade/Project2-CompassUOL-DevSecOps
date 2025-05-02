@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/411c9e7c-8619-442b-b88b-67d4b9892f3c" alt="Img VPC" width="300">
+</p>
+<br>
+
 # Relational Database Services
 
 ## Criação do BD (parte 1)
