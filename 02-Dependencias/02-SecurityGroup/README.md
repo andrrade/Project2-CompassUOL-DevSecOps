@@ -163,28 +163,52 @@
 ## Criação de SGs (parte 15) - IR RDS
 
 1. Clique em `Add rule`
-
-10. Clique em `Save rules`
+2. No tipo selecione `MYSQL/Aurora`. Selecione `Custom` como `ec2-priv-sg`
+3. Clique em `Save rules`
 
 ![image](https://github.com/user-attachments/assets/728e5464-8e9c-408b-a1e8-504685be4c9a)
 
 ## Criação de SGs (parte 16) - OR RDS
 
+1. Clique em `Add rule`
+2. No tipo selecione `All traffic`
+3. Selecione `Custom` como `0.0.0.0/0`
+4. Clique em `Save rules`
+
 ![image](https://github.com/user-attachments/assets/6aeea532-2c83-4334-bb55-a812fb6b4bc4)
 
 ## Criação de SGs (parte 17) - IR EFS
+
+1. Clique em `Add rule`
+2. No tipo selecione `NFS`
+3. Selecione `Custom` como `ec2-priv-sg`
+4. Clique em `Save rules`
 
 ![image](https://github.com/user-attachments/assets/ff072b28-5007-4791-bdff-9710d660bffb)
 
 ## Criação de SGs (parte 18) - OR EFS
 
+1. Clique em `Add rule`
+2. No tipo selecione `All traffic`
+3. Clique em `Save rules`
+
 ![image](https://github.com/user-attachments/assets/1c61d783-468f-4cc6-a403-a06de00ba160)
 
 ## Criação de SGs (parte 19) - IR ELB
 
+1. Clique em `Add rule`
+2. No tipo selecione `HTTP`
+3. Selecione `Anywhere-IPv4`
+4. Clique em `Save rules`
+
 ![image](https://github.com/user-attachments/assets/db7fd2b4-4a64-416a-818b-4450c9f9148f)
 
 ## Criação de SGs (parte 20) - OR ELB
+
+1. Clique em `Add rule`
+2. No tipo selecione `HTTP`
+3. Selecione `Anywhere-IPv4`
+4. Clique em `Save rules`
 
 ![image](https://github.com/user-attachments/assets/db4a7754-0703-4877-ad36-e383dfa4ffb5)
 
