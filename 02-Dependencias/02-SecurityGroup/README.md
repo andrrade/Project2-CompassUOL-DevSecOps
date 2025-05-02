@@ -71,7 +71,7 @@
 
 ![image](https://github.com/user-attachments/assets/e39fdbfb-dacf-4e02-b8fa-4819cc820294)
 
-## Criação de SGs (parte 8) - EFS
+## Criação de SGs (parte 8) - ELB
 
 1. Dê um nome para o security group
 
@@ -119,7 +119,7 @@
 5. Selecione `Anywhere-IPv4`
 6. Clique em `Save rules`
 
-![image](https://github.com/user-attachments/assets/b02aba45-030a-4b66-b464-6587a74b6770)
+![image](https://github.com/user-attachments/assets/fa124b32-8a06-42dd-9480-32bf6aaa57cb)
 
 ## Criação de SGs (parte 12) - OR EC2 Pública
 
