@@ -17,6 +17,15 @@
   - [RDS](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/02-Dependencias/03-Banco-de-Dados-RDS/README.md)
   - [EFS](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/02-Dependencias/04-EFS/README.md)
 
+## 👣 1º Passo: Configuração do Ambiente
+
+Para realizar os exercícios de Docker, utilizei as seguintes ferramentas e configurações:
+
+- 🪟 **Sistema Operacional:** Windows  
+- 🐧 **WSL:** [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/) com [Ubuntu 25.04.1 LTS](https://documentation.ubuntu.com/server/)  
+- 🐳 **Gerenciador de Containers:** [Rancher Desktop](https://rancherdesktop.io/) — alternativa gratuita ao [Docker Desktop](https://www.docker.com/products/docker-desktop/)  
+- 💻 **Editor de Código:** [Visual Studio Code](https://code.visualstudio.com/)  
+
 Configurações da minha máquina:
 Estou usando o linux pop_OS versão (colocar o nome da versão)
 Tenho o rancher desktop instalado
