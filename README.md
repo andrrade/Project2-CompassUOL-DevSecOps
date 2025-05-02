@@ -44,7 +44,6 @@
 
 ### 🐧 **Linux (ex: Ubuntu, Pop!\_OS, Fedora)**
 
-* **Distribuição:** Pop!\_OS (versão *coloque aqui sua versão, ex: 22.04 LTS*)
 * **Gerenciador de Containers:** [Rancher Desktop](https://rancherdesktop.io/) ou [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 * **Docker:** Também instalado separadamente para controle direto via CLI
 * **Editor de Código:** [Visual Studio Code](https://code.visualstudio.com/)
