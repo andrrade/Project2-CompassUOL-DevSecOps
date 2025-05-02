@@ -29,7 +29,7 @@
 
 1. Em engine version selecione a mais recente, no meu caso foi a `MySQL 8.4.5`
 
-![image](https://github.com/user-attachments/assets/3f2de36f-dedd-45a5-952f-647c20391c2e)
+![image](https://github.com/user-attachments/assets/ed41a837-d5a7-4f83-919b-053de0d63c04)
 
 ## Criação do BD (parte 5)
 
