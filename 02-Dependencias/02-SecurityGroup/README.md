@@ -5,6 +5,17 @@
 
 # Security Groups
 
+> [!NOTE]
+> Criaremos 4 Security Groups:
+>
+> 1. Instâncias EC2
+> 
+> 2. Banco de Dados
+> 
+> 3. Elastic File System
+> 
+> 4. Load Balancer
+
 ## Criação de SGs (parte 1)
 
 1. Abra o painel principal da AWS e pesquise por `VPC`
@@ -19,7 +30,10 @@
 
 ![image](https://github.com/user-attachments/assets/ec455d28-ee7d-4494-b155-69075d001be2)
 
-## Criação de SGs (parte 3) - EC2 Pública
+## Criação de SGs (parte 3) - EC2
+
+> [!NOTE]
+> Esse é o Security Group das Instâncias EC2
 
 1. Dê um nome para o security group
 
@@ -35,19 +49,10 @@
 
 ![image](https://github.com/user-attachments/assets/066ac162-be6c-4b64-975a-e536dc58d2fe)
 
-## Criação de SGs (parte 5) - EC2 Privada
+## Criação de SGs (parte 5) - RDS
 
-1. Dê um nome para o security group
-
-2. Dê uma descrição
-
-3. Selecione a VPC criada nos passos anteriores
-
-4. Clique em `Create security group`
-
-![image](https://github.com/user-attachments/assets/410b4146-982e-4550-884f-5aa1d1774ffc)
-
-## Criação de SGs (parte 6) - RDS
+> [!NOTE]
+> Esse é o Security Group do Banco de Dados
 
 1. Dê um nome para o security group
 
@@ -61,6 +66,9 @@
 
 ## Criação de SGs (parte 7) - EFS
 
+> [!NOTE]
+> Esse é o Security Group do Elastic File System
+
 1. Dê um nome para o security group
 
 2. Dê uma descrição
@@ -72,6 +80,9 @@
 ![image](https://github.com/user-attachments/assets/e39fdbfb-dacf-4e02-b8fa-4819cc820294)
 
 ## Criação de SGs (parte 8) - ELB
+
+> [!NOTE]
+> Esse é o Security Group do Load Balancer
 
 1. Dê um nome para o security group
 
