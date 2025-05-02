@@ -27,10 +27,6 @@
 
 ## 👣 1º Passo: Configuração do Ambiente
 
-### 💻 Dependendo do seu sistema operacional, siga as orientações abaixo:
-
----
-
 ### 🪟 **Windows**
 
 * **Sistema Operacional:** Windows 10/11
@@ -43,14 +39,14 @@
 ### 🍏 **macOS**
 
 * **Sistema Operacional:** macOS Monterey ou superior
-* **Gerenciador de Containers:** [Rancher Desktop](https://rancherdesktop.io/) ou [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+* **Gerenciador de Containers:** [Rancher Desktop](https://rancherdesktop.io/) — alternativa gratuita ao [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 * **Editor de Código:** [Visual Studio Code](https://code.visualstudio.com/)
 
 ---
 
 ### 🐧 **Linux (ex: Ubuntu, Pop!\_OS, Fedora)**
 
-* **Gerenciador de Containers:** [Rancher Desktop](https://rancherdesktop.io/) ou [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+* **Gerenciador de Containers:** [Rancher Desktop](https://rancherdesktop.io/) — alternativa gratuita ao [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 * **Docker:** Também instalado separadamente para controle direto via CLI
 * **Editor de Código:** [Visual Studio Code](https://code.visualstudio.com/)
 
