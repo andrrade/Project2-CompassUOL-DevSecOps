@@ -83,22 +83,88 @@
 
 ![image](https://github.com/user-attachments/assets/1ad457d8-aaee-45c9-998e-22a2941a2329)
 
+## Criação de SGs (parte 9)
 
+1. No dashboard de security groups, na lupa de pesquisas procure pelos nomes que você deu na criação dos SGs
+
+2. Clique no ID do sg
 
 ![image](https://github.com/user-attachments/assets/05f303ba-a59d-454c-8540-c3b084add7c2)
 
+## Criação de SGs (parte 10)
+
+1. Em inbound rules, clique em `Edit inbound rules`
 
 ![image](https://github.com/user-attachments/assets/5f246352-1646-4af6-ac44-23f28c104ab9)
 
-![image](https://github.com/user-attachments/assets/b02aba45-030a-4b66-b464-6587a74b6770)
-
-![image](https://github.com/user-attachments/assets/a97fb132-10c3-4d6d-966f-1d7ba8b96a6f)
-
-![image](https://github.com/user-attachments/assets/adae238c-2760-404d-a026-494316c1c806)
+> [!IMPORTANT]
+> E para as outbounds rules, clique em `Edit inbound rules`
 
 ![image](https://github.com/user-attachments/assets/dc6ab432-3da0-4c49-8856-f3e1614568cf)
 
+## Criação de SGs (parte 11) - IR EC2 Pública
+
+> [!NOTE]
+> IR = Inbound Rules
+> OR = Outbound Rules
+
+1. Clique em `Add rule`
+2. No tipo selecione `SSH`
+3. Selecione `My IP`
+
+> [!NOTE]
+> Meu IP não está sendo exibido por segurança
+
+4. No tipo selecione `HTTP`
+5. Selecione `Anywhere-IPv4`
+6. Clique em `Save rules`
+
+![image](https://github.com/user-attachments/assets/b02aba45-030a-4b66-b464-6587a74b6770)
+
+## Criação de SGs (parte 12) - OR EC2 Pública
+
+1. Clique em `Add rule`
+2. No tipo selecione `All traffic`
+3. Selecione `custom` como `0.0.0.0/0`
+4. Clique em `Save rules`
+
+![image](https://github.com/user-attachments/assets/a97fb132-10c3-4d6d-966f-1d7ba8b96a6f)
+
+## Criação de SGs (parte 13) - IR EC2 Privada
+
+1. Clique em `Add rule`
+2. No tipo selecione `SSH`
+3. Selecione `custom` como `ec2-pub-sg`
+4. No tipo selecione `NFS`
+5. Selecione `custom` como `efs-sg`
+6. No tipo selecione `HTTP`
+7. Selecione `custom` como `elb-sg`
+8. No tipo selecione `MYSQL/Aurora`
+9. Selecione `custom` como `rds-sg`
+10. Clique em `Save rules`
+
+![image](https://github.com/user-attachments/assets/adae238c-2760-404d-a026-494316c1c806)
+
+## Criação de SGs (parte 14) - OR EC2 Privada
+
+1. Clique em `Add rule`
+2. No tipo selecione `HTTP`
+3. Selecione `custom` como `Anywhere-IPv4`
+4. No tipo selecione `MYSQL/Aurora`
+5. Selecione `custom` como `rds-sg`
+6. No tipo selecione `NFS`
+7. Selecione `custom` como `efs-sg`
+8. No tipo selecione `All traffic`
+9. Selecione `Anywhere-IPv4`
+10. Clique em `Save rules`
+
 ![image](https://github.com/user-attachments/assets/fc4ad4bd-5612-49d3-9b77-c8eb242b8e8d)
+
+## Criação de SGs (parte 15) - IR EC2 Privada
+
+1. Clique em `Add rule`
+
+10. Clique em `Save rules`
 
 ![image](https://github.com/user-attachments/assets/728e5464-8e9c-408b-a1e8-504685be4c9a)
 
