@@ -53,7 +53,7 @@ O **Amazon EFS (Elastic File System)** é um serviço de armazenamento de arquiv
 
 ---
 vpc
-![image](https://github.com/user-attachments/assets/d432e64c-370c-45e3-8c94-fa298b23c337)
+
 
 efs
 ![image](https://github.com/user-attachments/assets/4dc1d97f-7bb7-4152-894e-8001b8488a60)
