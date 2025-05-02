@@ -122,7 +122,11 @@ ec2
 ![image](https://github.com/user-attachments/assets/14607bbf-d7d2-4c8a-b2cb-fd337dbc37a9)
 
 ---
+![image](https://github.com/user-attachments/assets/aba0a4b7-8a89-4323-ae28-77dbf699da30)
 
 efs
+
+ssh -i key-project.pem ubuntu@SEU_IP_AQUI
+sudo mount -t nfs -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport file-system-id.efs.aws-region.amazonaws.com:/ /efs-mount-point
 
 
