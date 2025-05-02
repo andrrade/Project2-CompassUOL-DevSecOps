@@ -3,7 +3,7 @@
 </p>
 <br>
 
-# SG
+# Security Groups
 
 ![image](https://github.com/user-attachments/assets/13e8b4fc-7c49-4176-be81-09a8e2158da2)
 
