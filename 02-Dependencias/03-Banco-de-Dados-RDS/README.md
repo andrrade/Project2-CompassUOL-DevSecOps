@@ -3,7 +3,7 @@
 </p>
 <br>
 
-# Relational Database Services
+# Relational Database Services (RDS)
 
 ## Criação do BD (parte 1)
 
