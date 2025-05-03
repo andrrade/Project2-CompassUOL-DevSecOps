@@ -125,5 +125,8 @@ rds
 
 ![image](https://github.com/user-attachments/assets/12706495-e7c8-4497-bcc2-29c82e3543b6)
 
-
-
+sudo su
+yum update -y && yum upgrade -y
+yum install -y amazon-efs-utils
+sudo mount -t efs -o tls fs-0408366d3a57b0fe5:/ /mnt/efs
+df -h
