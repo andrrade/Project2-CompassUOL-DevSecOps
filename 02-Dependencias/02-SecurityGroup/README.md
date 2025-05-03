@@ -225,52 +225,66 @@ IMAGEM PESQUISANDO O NOME DO SG
 
 # Configuração dos Security Groups
 
-## SG das Instâncias EC2
+## 1. `ec2_SG` (Instâncias EC2 - WordPress - Subnet Privada)
 
-| Tipo      | Porta | Source Type | Source                         |
-|-----------|-------|-------------|--------------------------------|
-| HTTP      | 80    | Custom      | SG do Load Balancer            |
-| HTTPS     | 443   | Custom      | SG do Load Balancer            |
+#### 📥 **INBOUND RULES**
 
-**Outbound Rules**
+| Tipo         | Porta | Origem              | Motivo                                |
+| ------------ | ----- | ------------------- | ------------------------------------- |
+| HTTP         | 80    | `lb_SG`            | Receber tráfego do Load Balancer      |
+| SSH          | 22    | Seu IP (ou Bastion) | Acesso para manutenção      |
+| NFS          | 2049  | `efs_SG`            | Montagem do EFS                       |
 
-| Tipo         | Porta | Destination Type | Destination   |
-|--------------|-------|------------------|---------------|
-| All traffic  | All   | Custom           | 0.0.0.0/0     |
+#### 📤 **OUTBOUND RULES**
 
-## SG do Banco de Dados
+| Tipo        | Porta | Destino               | Motivo                                        |
+| ----------- | ----- | --------------------- | --------------------------------------------- |
+| All traffic | All   | `0.0.0.0/0` (via NAT) | Baixar pacotes, updates, conectar ao RDS, etc |
 
-| Tipo           | Porta | Source Type | Source                |
-|----------------|-------|-------------|-----------------------|
-| MySQL/Aurora   | 3306  | Custom      | SG das Instâncias     |
+---
 
-**Outbound Rules**
+## 2. `rds_SG` (RDS - Banco de Dados - Subnet Privada)
 
-| Tipo           | Porta | Destination Type | Destination   |
-|----------------|-------|------------------|---------------|
-| MySQL/Aurora   | 3306  | Anywhere IPv4    | 0.0.0.0/0     |
+#### 📥 **INBOUND RULES**
 
-## SG do Load Balancer
+| Tipo         | Porta | Origem                  | Motivo                       |
+| ------------ | ----- | ----------------------- | ---------------------------- |
+| MySQL/Aurora | 3306  | `ec2_SG` | Permitir acesso do WordPress |
 
-| Tipo   | Porta | Source Type     | Source     |
-|--------|-------|------------------|------------|
-| HTTP   | 80    | Anywhere-IPv4    | 0.0.0.0/0  |
-| HTTPS  | 443   | Anywhere-IPv4    | 0.0.0.0/0  |
+#### 📤 **OUTBOUND RULES**
 
-**Outbound Rules**
+| Tipo         | Porta | Destino                 | Motivo                                                          |
+| ------------ | ----- | ----------------------- | --------------------------------------------------------------- |
+| MySQL/Aurora | 3306  | `ec2_SG` | Responder requisições (por boas práticas, mesmo sendo stateful) |
 
-| Tipo         | Porta | Destination Type | Destination   |
-|--------------|-------|------------------|---------------|
-| All traffic  | All   | Anywhere-IPv4    | 0.0.0.0/0     |
+---
 
-## SG do Elastic File System
+## 3. `efs_SG` (EFS - Subnet Privada)
 
-| Tipo | Porta | Source Type | Source              |
-|------|-------|-------------|---------------------|
-| NFS  | 2049  | Custom      | SG das Instâncias   |
+#### 📥 **INBOUND RULES**
 
-**Outbound Rules**
+| Tipo | Porta | Origem                  | Motivo                    |
+| ---- | ----- | ----------------------- | ------------------------- |
+| NFS  | 2049  | `ec2_SG` | Permitir montagem via NFS |
 
-| Tipo         | Porta | Destination Type | Destination   |
-|--------------|-------|------------------|---------------|
-| All Traffic  | All   | Anywhere IPv4    | 0.0.0.0/0     |
+#### 📤 **OUTBOUND RULES**
+
+| Tipo | Porta | Destino                 | Motivo                   |
+| ---- | ----- | ----------------------- | ------------------------ |
+| NFS  | 2049  | `ec2_SG` | Comunicação bidirecional |
+
+---
+
+## 4. `lb_SG` (Classic Load Balancer - Subnet Pública)
+
+#### 📥 **INBOUND RULES**
+
+| Tipo | Porta | Origem    | Motivo                      |
+| ---- | ----- | --------- | --------------------------- |
+| HTTP | 80    | 0.0.0.0/0 | Receber tráfego da internet |
+
+#### 📤 **OUTBOUND RULES**
+
+| Tipo | Porta | Destino                 | Motivo                           |
+| ---- | ----- | ----------------------- | -------------------------------- |
+| HTTP | 80    | `ec2_SG` | Encaminhar requisições para EC2s |
