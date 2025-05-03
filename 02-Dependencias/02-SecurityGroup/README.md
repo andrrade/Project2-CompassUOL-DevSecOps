@@ -290,3 +290,5 @@ IMAGEM PESQUISANDO O NOME DO SG
 | Tipo | Porta | Destino                 | Motivo                           |
 | ---- | ----- | ----------------------- | -------------------------------- |
 | HTTP | 80    | `ec2_SG` | Encaminhar requisições para EC2s |
+
+https://www.tldraw.com/f/252N6gRKNnqSvURmzjghp?d=v-410.67.1679.902.page
