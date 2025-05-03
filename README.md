@@ -123,6 +123,28 @@ rds
 
 ![image](https://github.com/user-attachments/assets/1465ae73-1e6d-49ff-b54c-89a413115f84)
 
+---
+EC2
+apagar instancia
+key pairs
+lb
+
+efs
+
+VPC
+nategateways
+subnets
+route tables
+internet gateway - detach e delete
+
+rds
+snapshot
+
+vpc - subnet
+route tables
+vpc
+elastic ip
+
 ![image](https://github.com/user-attachments/assets/12706495-e7c8-4497-bcc2-29c82e3543b6)
 
 sudo su
