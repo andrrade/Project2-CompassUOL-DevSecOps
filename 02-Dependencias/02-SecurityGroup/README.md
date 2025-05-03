@@ -5,6 +5,8 @@
 
 # Security Groups
 
+![image](https://github.com/user-attachments/assets/c7267fb9-ca8f-4972-83a4-14e9098d4f5d)
+
 > [!NOTE]
 > Criaremos 4 Security Groups:
 >
