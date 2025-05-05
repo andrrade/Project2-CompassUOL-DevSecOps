@@ -104,7 +104,7 @@
 1. Em `File systems`, verifique o ID e guarde-o
 
 > [!IMPORTANT]
-> Isso será uma informação crucial que você deverar utilizar no UserData
+> Isso será uma informação crucial que você deverá utilizar no UserData, então não se esqueça de anotar esse ID!
 
 ![image](https://github.com/user-attachments/assets/e1a3bad4-060d-4cef-9ee0-25023babcde2)
 
