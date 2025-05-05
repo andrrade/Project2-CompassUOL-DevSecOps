@@ -1,6 +1,12 @@
 > [!NOTE]
 > DESCREVER PROCESSOS
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ae7b5124-df56-4dcd-bd8d-539504fe6caf" alt="Img EC2" width="250">
+</p>
+<br>
+
+
 ![image](https://github.com/user-attachments/assets/57cf53dd-ba41-405b-8cb1-02ed0d9ff973)
 
 ![image](https://github.com/user-attachments/assets/a8f42042-9f2c-451b-a376-07ff17a43cca)

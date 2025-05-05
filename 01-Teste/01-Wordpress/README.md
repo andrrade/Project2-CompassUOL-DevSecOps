@@ -1,5 +1,11 @@
-### **O que é o WordPress?**  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fa5618a7-1c08-408c-b6ed-750b2d5aeed0" alt="Img WordPress" width="250">
+</p>
+<br>
 
+# WordPress
+
+### **O que é o WordPress?**  
 O **WordPress** é um sistema de gerenciamento de conteúdo (CMS) gratuito e de código aberto, usado para criar sites, blogs e até lojas virtuais. Ele é **flexível**, com milhares de temas e plugins, e **fácil de usar**, mesmo para quem não sabe programar.  
 
 ### **Por que o WordPress Precisa de um Banco de Dados?**  
@@ -11,7 +17,7 @@ O WordPress é **dinâmico**, ou seja, ele não armazena páginas em arquivos es
 
 **Sem o banco de dados, o WordPress não funciona**, pois não tem onde buscar ou salvar informações.
 
-## Teste 1 - Rodar o Wordpress localmente
+## Criação do WordPress localmente
 
 1. Acesse documentação oficial:
 https://hub.docker.com/_/wordpress
