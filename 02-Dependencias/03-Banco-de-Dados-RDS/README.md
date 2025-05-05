@@ -96,17 +96,11 @@
 
 1. Selecione `No`
 2. Selecione `Choose existing`
-3. Selecione o security group do banco de dados: `rds-sg`
-
-> [!NOTE]
-> Como refiz muitas vezes esse processo, acabei mudando o nome do sg, antes estava `rds-sg`, mas agora
-está como `rds-SG`. Quis deixar isso documentado, caso você esteja seguindo o passo a passo e ache estranha
-essa troca de nomes. Como o print foi tirado antes da mudança, o nome ainda estava como `rds-sg`.
-
+3. Selecione o security group do banco de dados: `rds_SG`
 4. Selecione `No preference`
 5. Selecione o `default`
 
-![image](https://github.com/user-attachments/assets/87dc1cc0-cb04-48a4-a743-38a4084fc37c)
+![image](https://github.com/user-attachments/assets/f230ea6b-0105-4854-9e27-36d68f6934dd)
 
 ## Criação do BD (parte 12)
 
