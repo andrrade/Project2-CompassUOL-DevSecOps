@@ -18,7 +18,7 @@
 
 ![image](https://github.com/user-attachments/assets/f7c30818-2e3c-40e1-87ac-9f47beb8c746)
 
-## Criação do EFS (parte 1)
+## Criação do EFS (parte 3)
 
 > [!NOTE]
 > Você pode escolher os nomes que quiser, os que estou deixando documentados foram os que eu usei.
@@ -33,7 +33,7 @@
 
 3. Clique em `Customize`
 
-## Criação do EFS (parte 1)
+## Criação do EFS (parte 4)
 
 1. Confira o nome do seu EFS (se quiser alterar, basta colocar outro nome)
 
@@ -43,14 +43,14 @@
 
 ![image](https://github.com/user-attachments/assets/5a006d4c-87e8-4015-8bb0-c584614c441a)
 
-## Criação do EFS (parte 1)
+## Criação do EFS (parte 5)
 
 1. Selecione `None`
 2. Selecione `None`
 
 ![image](https://github.com/user-attachments/assets/c0dfaabf-74e5-4d31-9134-c0e01a28b8e4)
 
-## Criação do EFS (parte 1)
+## Criação do EFS (parte 6)
 
 1. Em throughput mode, selecione `Bursting`
 
@@ -59,7 +59,7 @@
 ![image](https://github.com/user-attachments/assets/1c8396ef-132b-40f3-8c49-7d3b7fcc7bcf)
 
 
-## Criação do EFS (parte 1)
+## Criação do EFS (parte 7)
 
 1. Coloque tags, se quiser, e clique em next
 
@@ -68,7 +68,7 @@
 
 ![image](https://github.com/user-attachments/assets/1304c264-0311-45ae-b421-41b0511f7d16)
 
-## Criação do EFS (parte 1)
+## Criação do EFS (parte 8)
 
 > [!IMPORTANT]
 > Nesse passo, não se esqueça que você deve selecionar as subnets **privadas**
@@ -84,7 +84,7 @@
 
 ![image](https://github.com/user-attachments/assets/1bb4a0b7-6465-44d0-bcd6-431aa18c1595)
 
-## Criação do EFS (parte 1)
+## Criação do EFS (parte 9)
 
 1. Coloque políticas, se quiser, e clique em next
 
@@ -93,13 +93,13 @@
 
 ![image](https://github.com/user-attachments/assets/96cef37c-d9c9-4215-9895-b9299b2cd7a5)
 
-## Criação do EFS (parte 1)
+## Criação do EFS (parte 10)
 
 1. Na página que abrir, só clique em next
 
 ![image](https://github.com/user-attachments/assets/395cdbd5-63a5-4e9c-ae29-4c271e7dd980)
 
-## Criação do EFS (parte 1)
+## Criação do EFS (parte 11)
 
 1. Em `File systems`, verifique o ID e guarde-o
 
@@ -107,3 +107,6 @@
 > Isso será uma informação crucial que você deverar utilizar no UserData
 
 ![image](https://github.com/user-attachments/assets/e1a3bad4-060d-4cef-9ee0-25023babcde2)
+
+> [!NOTE]
+> Após seguir esses passos, você consegue criar o EFS da forma correta!
