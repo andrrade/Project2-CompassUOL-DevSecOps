@@ -1,3 +1,6 @@
+> [!NOTE]
+> OK
+
 ### **O que é o WordPress?**  
 
 O **WordPress** é um sistema de gerenciamento de conteúdo (CMS) gratuito e de código aberto, usado para criar sites, blogs e até lojas virtuais. Ele é **flexível**, com milhares de temas e plugins, e **fácil de usar**, mesmo para quem não sabe programar.  

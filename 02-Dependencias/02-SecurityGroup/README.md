@@ -290,3 +290,32 @@ IMAGEM PESQUISANDO O NOME DO SG
 | Tipo | Porta | Destino                 | Motivo                           |
 | ---- | ----- | ----------------------- | -------------------------------- |
 | HTTP | 80    | `ec2_SG` | Encaminhar requisições para EC2s |
+
+
+---
+
+![image](https://github.com/user-attachments/assets/e0b39da7-2d7e-4c1c-b296-7aed930cf011)
+
+![image](https://github.com/user-attachments/assets/8aaf5f79-ef03-413e-9f21-c97a21448f65)
+
+![image](https://github.com/user-attachments/assets/2bc66083-7be6-464a-8001-88b6eb453de2)
+
+![image](https://github.com/user-attachments/assets/dd27bb95-c1b7-423d-957c-da3a30d8a11a)
+
+--
+
+![image](https://github.com/user-attachments/assets/6e4a44d6-9ac7-4c4a-98ce-56de1fbb62bd)
+
+![image](https://github.com/user-attachments/assets/6992226e-2575-4cb6-91df-66cfb9fa5f74)
+
+![image](https://github.com/user-attachments/assets/b7ef5575-9cae-44fd-8bf1-6178d2ea4d5f)
+
+![image](https://github.com/user-attachments/assets/8a401503-03e9-49cd-a03a-338a2ce1324e)
+
+![image](https://github.com/user-attachments/assets/3177852c-10a1-41b5-9eea-4c523b099e5b)
+
+![image](https://github.com/user-attachments/assets/a5e4c4bf-944e-4249-a722-716d88abfc0c)
+
+![image](https://github.com/user-attachments/assets/f7d91d46-1f0d-40e2-85fc-0ede1b33b5a0)
+
+![image](https://github.com/user-attachments/assets/9a7e931c-bb1a-4e7d-b527-d51d2f8b9544)
