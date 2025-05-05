@@ -1,6 +1,3 @@
-> [!NOTE]
-> ORGANIZAR IMAGENS, DESCREVER PROCESSOS E APAGAR DADOS ERRADOS
-
 <p align="center">
   <img src="https://github.com/user-attachments/assets/2937f94e-9467-44f1-a972-69055ae2aa01" alt="Img VPC" width="300">
 </p>
@@ -21,7 +18,7 @@
 
 ## Criação de SGs (parte 1)
 
-1. Abra o painel principal da AWS e pesquise por `VPC`
+1. Abra o painel principal da AWS e pesquise por `Security groups`
 
 2. Clique em `Security groups`
 
@@ -35,12 +32,22 @@
 
 ## Criação de SGs (parte 3) - EC2
 
+> [!IMPORTANT]
+> Não foi mostrado nos prints, mas na criação dos security groups, clique em `delete` para remover todas
+as regras já existentes, isso será importante para os próximos passos.
+
 > [!NOTE]
-> Esse é o Security Group das Instâncias EC2
+> Você pode escolher os nomes que quiser, os que estou deixando documentados foram os que eu usei.
+
+> [!NOTE]
+> Esse é o Security Group das Instâncias EC2:
 
 1. Dê um nome para o security group
 
+`ec2_SG`
+
 2. Dê uma descrição
+`ec2`
 
 3. Selecione a VPC criada nos passos anteriores
 
@@ -59,7 +66,10 @@
 
 1. Dê um nome para o security group
 
+`rds_SG`
+
 2. Dê uma descrição
+`rds`
 
 3. Selecione a VPC criada nos passos anteriores
 
@@ -74,7 +84,11 @@
 
 1. Dê um nome para o security group
 
+`efs_SG`
+
 2. Dê uma descrição
+
+`efs`
 
 3. Selecione a VPC criada nos passos anteriores
 
@@ -89,7 +103,11 @@
 
 1. Dê um nome para o security group
 
+`lb_SG`
+
 2. Dê uma descrição
+
+`lb`
 
 3. Selecione a VPC criada nos passos anteriores
 
@@ -112,7 +130,7 @@ IMAGEM PESQUISANDO O NOME DO SG
 ![image](https://github.com/user-attachments/assets/5f246352-1646-4af6-ac44-23f28c104ab9)
 
 > [!IMPORTANT]
-> E para as outbounds rules, clique em `Edit inbound rules`
+> E para as outbounds rules, clique em `Edit outbound rules`
 
 ![image](https://github.com/user-attachments/assets/dc6ab432-3da0-4c49-8856-f3e1614568cf)
 
@@ -124,8 +142,8 @@ IMAGEM PESQUISANDO O NOME DO SG
 
 | Tipo         | Porta | Origem              | Motivo                                |
 | ------------ | ----- | ------------------- | ------------------------------------- |
-| HTTP         | 80    | `lb_SG`            | Receber tráfego do Load Balancer      |
-| SSH          | 22    | Seu IP (ou Bastion) | Acesso para manutenção      |
+| SSH          | 22    | Seu IP (ou Bastion) | Receber tráfego do Load Balancer      |
+| HTTP         | 80    | `lb_SG`             | Acesso para manutenção                |
 | NFS          | 2049  | `efs_SG`            | Montagem do EFS                       |
 
 ![image](https://github.com/user-attachments/assets/6e4a44d6-9ac7-4c4a-98ce-56de1fbb62bd)
@@ -146,7 +164,7 @@ IMAGEM PESQUISANDO O NOME DO SG
 
 | Tipo         | Porta | Origem                  | Motivo                       |
 | ------------ | ----- | ----------------------- | ---------------------------- |
-| MySQL/Aurora | 3306  | `ec2_SG` | Permitir acesso do WordPress |
+| MySQL/Aurora | 3306  | `ec2_SG`                | Permitir acesso do WordPress |
 
 ![image](https://github.com/user-attachments/assets/b7ef5575-9cae-44fd-8bf1-6178d2ea4d5f)
 
@@ -166,7 +184,7 @@ IMAGEM PESQUISANDO O NOME DO SG
 
 | Tipo | Porta | Origem                  | Motivo                    |
 | ---- | ----- | ----------------------- | ------------------------- |
-| NFS  | 2049  | `ec2_SG` | Permitir montagem via NFS |
+| NFS  | 2049  | `ec2_SG`                | Permitir montagem via NFS |
 
 ![image](https://github.com/user-attachments/assets/3177852c-10a1-41b5-9eea-4c523b099e5b)
 
@@ -174,7 +192,7 @@ IMAGEM PESQUISANDO O NOME DO SG
 
 | Tipo | Porta | Destino                 | Motivo                   |
 | ---- | ----- | ----------------------- | ------------------------ |
-| NFS  | 2049  | `ec2_SG` | Comunicação bidirecional |
+| NFS  | 2049  | `ec2_SG`                | Comunicação bidirecional |
 
 ![image](https://github.com/user-attachments/assets/a5e4c4bf-944e-4249-a722-716d88abfc0c)
 ---
@@ -193,7 +211,7 @@ IMAGEM PESQUISANDO O NOME DO SG
 
 | Tipo | Porta | Destino                 | Motivo                           |
 | ---- | ----- | ----------------------- | -------------------------------- |
-| HTTP | 80    | `ec2_SG` | Encaminhar requisições para EC2s |
+| HTTP | 80    | `ec2_SG`                | Encaminhar requisições para EC2s |
 
 ![image](https://github.com/user-attachments/assets/9a7e931c-bb1a-4e7d-b527-d51d2f8b9544)
 

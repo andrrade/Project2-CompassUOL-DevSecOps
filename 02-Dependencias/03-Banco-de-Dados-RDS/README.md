@@ -1,6 +1,3 @@
-> [!NOTE]
-> OK
-
 <p align="center">
   <img src="https://github.com/user-attachments/assets/20b848cd-1a4d-48e3-998a-2692046a21ff" alt="Img VPC" width="300">
 </p>
@@ -30,7 +27,10 @@
 
 ## Criação do BD (parte 4)
 
-1. Em engine version selecione a mais recente, no meu caso foi a `MySQL 8.4.5`
+1. Em engine version selecione a mais recente
+
+> [!NOTE]
+> no meu caso foi a `MySQL 8.4.5`
 
 ![image](https://github.com/user-attachments/assets/ed41a837-d5a7-4f83-919b-053de0d63c04)
 
@@ -48,8 +48,17 @@
 
 ## Criação do BD (parte 7)
 
+> [!NOTE]
+> Você pode escolher os nomes que quiser, os que estou deixando documentados foram os que eu usei.
+
 1. Dê um nome para a instância de Banco de Dados
+
+`database-project2`
+
 2. Dê um nome de usuário
+
+`admin`
+
 3. Selecione `Self managed`
 4. Crie uma senha forte
 5. Repita a senha criada
@@ -88,6 +97,12 @@
 1. Selecione `No`
 2. Selecione `Choose existing`
 3. Selecione o security group do banco de dados: `rds-sg`
+
+> [!NOTE]
+> Como refiz muitas vezes esse processo, acabei mudando o nome do sg, antes estava `rds-sg`, mas agora
+está como `rds-SG`. Quis deixar isso documentado, caso você esteja seguindo o passo a passo e ache estranha
+essa troca de nomes. Como o print foi tirado antes da mudança, o nome ainda estava como `rds-sg`.
+
 4. Selecione `No preference`
 5. Selecione o `default`
 
@@ -105,6 +120,8 @@
 
 1. Dê um nome para o seu banco de dados
 
+`BDproject2`
+
 > [!IMPORTANT]
 > Isso é crucial para evitar erros!
 
@@ -120,3 +137,6 @@
 1. Clique em `Create database`
 
 ![image](https://github.com/user-attachments/assets/2adf4f5f-44b2-4dd5-a412-0456c4f04254)
+
+> [!NOTE]
+> Após seguir esses passos, você consegue criar o banco de dados da forma correta!

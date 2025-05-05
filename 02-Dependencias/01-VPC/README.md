@@ -1,6 +1,3 @@
-> [!NOTE]
-> OK
-
 <p align="center">
   <img src="https://github.com/user-attachments/assets/43b15b8f-000c-4a59-b272-b0f13a465274" alt="Img VPC" width="300">
 </p>
