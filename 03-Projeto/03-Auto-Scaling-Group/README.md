@@ -3,22 +3,79 @@
 </p>
 <br>
 
-ASG
+# Auto Scaling Group
+
+## Criação do ASG (parte 1)
+
 ![image](https://github.com/user-attachments/assets/d49e2ff6-9b0f-4897-88c7-e635cd632d68)
+
+## Criação do ASG (parte 2)
+
 ![image](https://github.com/user-attachments/assets/b3857e9c-9361-4736-952b-74cb94bee7f2)
+
+## Criação do ASG (parte 3)
+
 ![image](https://github.com/user-attachments/assets/b9285afc-93a1-40fb-ba59-808bbfb99809)
+
+## Criação do ASG (parte 4)
+
 ![image](https://github.com/user-attachments/assets/d067d75f-ee7a-4b79-97ab-30c1cf401a89)
+
+## Criação do ASG (parte 5)
+
 ![image](https://github.com/user-attachments/assets/cb64c89b-bba7-4f5a-a480-886da38b3cdc)
+
+## Criação do ASG (parte 6)
+
 ![image](https://github.com/user-attachments/assets/58ae61bf-55fc-4d95-a7b5-bff8f7418fa2)
+
+## Criação do ASG (parte 7)
+
 ![image](https://github.com/user-attachments/assets/73195a47-a105-4f0b-865f-8b51dfa30656)
+
+## Criação do ASG (parte 8)
+
 ![image](https://github.com/user-attachments/assets/cbb2a6ba-2d0c-42c1-83ee-3432378a29ae)
+
+## Criação do ASG (parte 9)
+
 ![image](https://github.com/user-attachments/assets/4804a9fa-abc8-420b-8dc6-666612a1ee71)
+
+## Criação do ASG (parte 10)
+
 ![image](https://github.com/user-attachments/assets/99896581-46ec-4349-9c00-cf17d598dec5)
+
+## Criação do ASG (parte 11)
+
 ![image](https://github.com/user-attachments/assets/ec6c9a0a-70b8-4018-b2f6-b51959860930)
+
+## Criação do ASG (parte 12)
+
 ![image](https://github.com/user-attachments/assets/1de55719-5a3f-49a2-97ba-9e6a2bb9f8fe)
+
+## Criação do ASG (parte 13)
+
 ![image](https://github.com/user-attachments/assets/f5846749-c959-4502-a7d8-ab79e6b95515)
+
+## Criação do ASG (parte 14)
+
 ![image](https://github.com/user-attachments/assets/deecf1b2-fcc4-4051-9ac1-0ea39354f951)
+
+## Criação do ASG (parte 15)
+
 ![image](https://github.com/user-attachments/assets/3c32b063-6d60-4d93-bd1d-18c04f1163cd)
+
+## Criação do ASG (parte 16)
+
 ![image](https://github.com/user-attachments/assets/a6a0ee41-c495-4681-a9cb-529942f0fbbf)
+
+## Criação do ASG (parte 17)
+
 ![image](https://github.com/user-attachments/assets/e02bb7c0-d2c6-43ec-9a30-a782bfcf4fe1)
+
+## Criação do ASG (parte 18)
+
 ![image](https://github.com/user-attachments/assets/f6da86b2-ff12-4e64-ab55-3419d1820a5a)
+
+> [!NOTE]
+> Após seguir esses passos, você consegue criar o `Auto Scaling Group` da forma correta!

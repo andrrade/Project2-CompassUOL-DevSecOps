@@ -3,6 +3,9 @@
 </p>
 <br>
 
+> [!IMPORTANT]
+> Você precisa testar o WordPress localmente para depois subir na instância, são boas práticas!
+
 # WordPress
 
 ### **O que é o WordPress?**  
@@ -136,4 +139,4 @@ Selecione `Remember me` e depois clique em `Log In`:
 ![image](https://github.com/user-attachments/assets/0ac5f771-c3e4-4c71-a6a8-549329e92637)
 
 > [!NOTE]
-> Prontinho, com esses passos você conseguiu testar e fazer que funcionasse localmente o WordPress!
+> Prontinho, com esses passos você conseguiu testar e fazer que funcionasse localmente o `WordPress`!
