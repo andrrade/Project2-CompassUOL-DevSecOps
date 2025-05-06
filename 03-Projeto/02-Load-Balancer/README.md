@@ -63,10 +63,22 @@
 
 ## Criação do LB (parte 8)
 
-1. 
+1. Em ping path coloque o caminho:
+
+```bash
+/wp-admin/install.php
+```
+
+2. Em `Response timeout`, colque `5`
+3. Em `Interval`, colque `15`
+4. Em `Unhealthy threshold`, colque `2`
+5. Em `Healthy threshold`, colque `3`
+
 ![image](https://github.com/user-attachments/assets/4d1345bb-f92a-4055-af70-7687b0ebd690)
 
 ## Criação do LB (parte 9)
+
+1. Clique em `Create load balancer`
 
 ![image](https://github.com/user-attachments/assets/fc35b139-3d9c-4169-b6f1-088c3bd03408)
 
