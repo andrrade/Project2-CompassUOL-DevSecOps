@@ -1,13 +1,6 @@
 > [!WARNING]
 > Projeto ainda em andamento
 
-> [!NOTE]
-> ELB
-> 
-> ASG
-> 
-> TESTES
-
 <p align="center">
   <img src="https://github.com/user-attachments/assets/fc8a7bf4-b1bf-45ee-84d0-8ffffbf0cec9" alt="Logo dos Exercícios" width="500">
 </p>
@@ -23,14 +16,20 @@
 
 # Sumário 📝
 
-- [Teste local](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/tree/main/01-Teste)
-  - [Wordpress](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/01-Teste/01-Wordpress/README.md)
-  - [EC2](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/01-Teste/02-EC2/README.MD)
+- [Teste local]()
+  - [Wordpress]()
+  - [EC2]()
 - [Dependências](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/tree/main/02-Dependencias)
   - [VPC](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/02-Dependencias/01-VPC/README.md)
-  - [Security Group](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/02-Dependencias/02-SecurityGroup/README.md)
+  - [Security Group]()
   - [RDS](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/02-Dependencias/03-Banco-de-Dados-RDS/README.md)
   - [EFS](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/02-Dependencias/04-EFS/README.md)
+  - [Key Pairs]()
+- [Projeto]()
+  - [Launch Template]()
+  - [Load Balancer]()
+  - [Auto Scaling Group]()
+- [Testes]()
 
 ---
 
