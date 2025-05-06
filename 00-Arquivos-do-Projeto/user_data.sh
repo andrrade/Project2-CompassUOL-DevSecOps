@@ -8,7 +8,7 @@ DB_USER="<seu_usuario_do_banco_aqui>"
 DB_PASSWORD="<sua_senha_do_banco_aqui>"  
 DOCKER_COMPOSE_VERSION="v2.34.0"
 PROJECT_DIR="/home/ec2-user/projeto-docker"
-EFS_MOUNT_DIR="/home/ec2-user/efs"
+EFS_MOUNT_DIR="/mnt/efs"  
 
 # Atualizações e instalações básicas
 yum update -y
@@ -24,17 +24,20 @@ usermod -a -G docker ec2-user
 curl -SL https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 
-# Configuração do EFS
+# Instalação e montagem do EFS
 yum install -y amazon-efs-utils
-mkdir ${EFS_MOUNT_DIR}
+mkdir -p ${EFS_MOUNT_DIR}
 mount -t efs ${EFS_FILE_SYSTEM_ID}:/ ${EFS_MOUNT_DIR}
 echo "${EFS_FILE_SYSTEM_ID}:/ ${EFS_MOUNT_DIR} efs defaults,_netdev 0 0" >> /etc/fstab
 
+# Permissões corretas para WordPress (usuário 33 = www-data no container)
+chown -R 33:33 ${EFS_MOUNT_DIR}
+
 # Preparação do projeto
-mkdir ${PROJECT_DIR}
+mkdir -p ${PROJECT_DIR}
 cd ${PROJECT_DIR}
 
-# Configuração do docker-compose.yml
+# docker-compose.yml
 cat > docker-compose.yml <<EOL
 version: '3.7'
 services:
@@ -49,11 +52,11 @@ services:
     ports:
       - 80:80
     volumes:
-      - /mnt/efs:/var/www/html
+      - ${EFS_MOUNT_DIR}:/var/www/html
 
 volumes:
   wordpress_data:
 EOL
 
-# Inicialização dos containers
+# Inicialização do WordPress
 docker-compose up -d
