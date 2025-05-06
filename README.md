@@ -16,20 +16,20 @@
 
 # Sumário 📝
 
-- [Teste local]()
-  - [Wordpress]()
-  - [EC2]()
+- [Verificações Locais](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/tree/main/01-Verificacoes-Locais)
+  - [Wordpress](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/01-Verificacoes-Locais/01-Wordpress/README.md)
+  - [EC2](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/01-Verificacoes-Locais/02-EC2/README.MD)
 - [Dependências](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/tree/main/02-Dependencias)
   - [VPC](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/02-Dependencias/01-VPC/README.md)
-  - [Security Group]()
+  - [Security Group](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/02-Dependencias/02-Security-Group/README.md)
   - [RDS](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/02-Dependencias/03-Banco-de-Dados-RDS/README.md)
   - [EFS](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/02-Dependencias/04-EFS/README.md)
-  - [Key Pairs]()
-- [Projeto]()
-  - [Launch Template]()
-  - [Load Balancer]()
-  - [Auto Scaling Group]()
-- [Testes]()
+  - [Key Pairs](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/02-Dependencias/05-Key-pairs/README.md)
+- [Projeto](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/tree/main/03-Projeto)
+  - [Launch Template](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/03-Projeto/01-Launch-Template/README.md)
+  - [Load Balancer](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/03-Projeto/02-Load-Balancer/README.md)
+  - [Auto Scaling Group](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/03-Projeto/03-Auto-Scaling-Group/README.md)
+- [Testes](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/04-Testes/README.md)
 
 ---
 
@@ -127,45 +127,3 @@ yum update -y && yum upgrade -y
 yum install -y amazon-efs-utils
 sudo mount -t efs -o tls fs-0408366d3a57b0fe5:/ /mnt/efs
 df -h
-
----
-
-LAUNCH TEMPLATE
-![image](https://github.com/user-attachments/assets/c3fb650c-19e5-4ea4-a38f-1d2d21c7915b)
-![image](https://github.com/user-attachments/assets/0e9a0062-8fd5-48a9-aacd-73144718a155)
-![image](https://github.com/user-attachments/assets/ebc0f591-b28b-4486-8e82-8a41dc31d04d)
-![image](https://github.com/user-attachments/assets/db902fa7-2eaa-40c6-975d-f31a040fd340)
-![image](https://github.com/user-attachments/assets/e15e79c4-7494-4a77-ac35-6747e0ad4999)
-![image](https://github.com/user-attachments/assets/beb22991-f4ad-4b26-85d7-02afc7b0dba9)
-
-LB
-![image](https://github.com/user-attachments/assets/82bb2ee7-2103-457f-8774-ce70b3596dd6)
-![image](https://github.com/user-attachments/assets/eae02eb2-f122-4f3d-a2d2-357a12821839)
-![image](https://github.com/user-attachments/assets/164b5590-a62e-4d4c-bfd0-6561dbc76142)
-![image](https://github.com/user-attachments/assets/9176d4ec-53e6-45af-a360-15fce6c2091e)
-![image](https://github.com/user-attachments/assets/4d1345bb-f92a-4055-af70-7687b0ebd690)
-![image](https://github.com/user-attachments/assets/fc35b139-3d9c-4169-b6f1-088c3bd03408)
-
-ASG
-![image](https://github.com/user-attachments/assets/d49e2ff6-9b0f-4897-88c7-e635cd632d68)
-![image](https://github.com/user-attachments/assets/b3857e9c-9361-4736-952b-74cb94bee7f2)
-![image](https://github.com/user-attachments/assets/b9285afc-93a1-40fb-ba59-808bbfb99809)
-![image](https://github.com/user-attachments/assets/d067d75f-ee7a-4b79-97ab-30c1cf401a89)
-![image](https://github.com/user-attachments/assets/cb64c89b-bba7-4f5a-a480-886da38b3cdc)
-![image](https://github.com/user-attachments/assets/58ae61bf-55fc-4d95-a7b5-bff8f7418fa2)
-![image](https://github.com/user-attachments/assets/73195a47-a105-4f0b-865f-8b51dfa30656)
-![image](https://github.com/user-attachments/assets/cbb2a6ba-2d0c-42c1-83ee-3432378a29ae)
-![image](https://github.com/user-attachments/assets/4804a9fa-abc8-420b-8dc6-666612a1ee71)
-![image](https://github.com/user-attachments/assets/99896581-46ec-4349-9c00-cf17d598dec5)
-![image](https://github.com/user-attachments/assets/ec6c9a0a-70b8-4018-b2f6-b51959860930)
-![image](https://github.com/user-attachments/assets/1de55719-5a3f-49a2-97ba-9e6a2bb9f8fe)
-![image](https://github.com/user-attachments/assets/f5846749-c959-4502-a7d8-ab79e6b95515)
-![image](https://github.com/user-attachments/assets/deecf1b2-fcc4-4051-9ac1-0ea39354f951)
-![image](https://github.com/user-attachments/assets/3c32b063-6d60-4d93-bd1d-18c04f1163cd)
-![image](https://github.com/user-attachments/assets/a6a0ee41-c495-4681-a9cb-529942f0fbbf)
-![image](https://github.com/user-attachments/assets/e02bb7c0-d2c6-43ec-9a30-a782bfcf4fe1)
-![image](https://github.com/user-attachments/assets/f6da86b2-ff12-4e64-ab55-3419d1820a5a)
-
-
-
-
