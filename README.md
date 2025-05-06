@@ -39,7 +39,7 @@
 
 ---
 
-## 👣 1º Passo: Configuração do Ambiente
+## 🛠️ Configuração do Ambiente
 
 ### 🪟 **Windows**
 
@@ -63,6 +63,9 @@
 * **Gerenciador de Containers:** [Rancher Desktop](https://rancherdesktop.io/) — alternativa gratuita ao [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 * **Docker:** Também instalado separadamente para controle direto via CLI
 * **Editor de Código:** [Visual Studio Code](https://code.visualstudio.com/)
+
+> [!NOTE]
+> Fiz um desenho nos Security Groups, e para isso utilizei a ferramenta [tldraw](https://www.tldraw.com)
 
 <p align="center">
   <br>
