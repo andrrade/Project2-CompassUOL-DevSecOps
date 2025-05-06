@@ -17,10 +17,10 @@
 # Sumário 📝
 
 - [Arquivos do Projeto](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/tree/main/00-Arquivos-do-Projeto)
-- [Desenho SG Tldraw](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/00-Arquivos-do-Projeto/Desenho-Security-Groups.tldr)
-- [Enunciado](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/00-Arquivos-do-Projeto/Enunciado-Projeto2.pdf)
-- [Imagem da Arquitetura](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/00-Arquivos-do-Projeto/img-project2.png)
-- [User Data](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/00-Arquivos-do-Projeto/user_data.sh)
+  - [Desenho SG Tldraw](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/00-Arquivos-do-Projeto/Desenho-Security-Groups.tldr)
+  - [Enunciado](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/00-Arquivos-do-Projeto/Enunciado-Projeto2.pdf)
+  - [Imagem da Arquitetura](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/00-Arquivos-do-Projeto/img-project2.png)
+  - [User Data](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/00-Arquivos-do-Projeto/user_data.sh)
 - [Verificações Locais](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/tree/main/01-Verificacoes-Locais)
   - [Wordpress](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/01-Verificacoes-Locais/01-Wordpress/README.md)
   - [EC2](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/01-Verificacoes-Locais/02-EC2/README.MD)
