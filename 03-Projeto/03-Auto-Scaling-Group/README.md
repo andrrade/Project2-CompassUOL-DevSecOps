@@ -76,26 +76,41 @@
 
 ## Criação do ASG (parte 10)
 
-1. 
+1. Em `Desired capacity`, coloque `2`
+2. Em `Min desired capacity`, coloque `2`
+3. Em `Max desired capacity`, coloque `4`
+4. Selecione `No scaling polices`
+
 ![image](https://github.com/user-attachments/assets/cbb2a6ba-2d0c-42c1-83ee-3432378a29ae)
 
 ## Criação do ASG (parte 11)
+
+1. Selecione `No policy`
 
 ![image](https://github.com/user-attachments/assets/4804a9fa-abc8-420b-8dc6-666612a1ee71)
 
 ## Criação do ASG (parte 12)
 
+1. Marque o checkbox `Enable group metrics collection within CloudWatch`
+2. Clique em `Next`
+
 ![image](https://github.com/user-attachments/assets/99896581-46ec-4349-9c00-cf17d598dec5)
 
 ## Criação do ASG (parte 13)
+
+1. Clique em `Next`
 
 ![image](https://github.com/user-attachments/assets/ec6c9a0a-70b8-4018-b2f6-b51959860930)
 
 ## Criação do ASG (parte 14)
 
+1. Clique em `Next`
+
 ![image](https://github.com/user-attachments/assets/1de55719-5a3f-49a2-97ba-9e6a2bb9f8fe)
 
 ## Criação do ASG (parte 15)
+
+1. Clique em `Create Auto Scaling group`
 
 ![image](https://github.com/user-attachments/assets/f5846749-c959-4502-a7d8-ab79e6b95515)
 
@@ -116,6 +131,8 @@
 ![image](https://github.com/user-attachments/assets/e02bb7c0-d2c6-43ec-9a30-a782bfcf4fe1)
 
 ## Criação do ASG (parte 20)
+
+
 
 ![image](https://github.com/user-attachments/assets/f6da86b2-ff12-4e64-ab55-3419d1820a5a)
 
