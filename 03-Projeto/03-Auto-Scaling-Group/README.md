@@ -114,27 +114,5 @@
 
 ![image](https://github.com/user-attachments/assets/f5846749-c959-4502-a7d8-ab79e6b95515)
 
-## Criação do ASG (parte 16)
-
-![image](https://github.com/user-attachments/assets/deecf1b2-fcc4-4051-9ac1-0ea39354f951)
-
-## Criação do ASG (parte 17)
-
-![image](https://github.com/user-attachments/assets/3c32b063-6d60-4d93-bd1d-18c04f1163cd)
-
-## Criação do ASG (parte 18)
-
-![image](https://github.com/user-attachments/assets/a6a0ee41-c495-4681-a9cb-529942f0fbbf)
-
-## Criação do ASG (parte 19)
-
-![image](https://github.com/user-attachments/assets/e02bb7c0-d2c6-43ec-9a30-a782bfcf4fe1)
-
-## Criação do ASG (parte 20)
-
-
-
-![image](https://github.com/user-attachments/assets/f6da86b2-ff12-4e64-ab55-3419d1820a5a)
-
 > [!NOTE]
-> Após seguir esses passos, você consegue criar o `Auto Scaling Group` da forma correta!
+> Após seguir esses passos, você consegue criar o `Auto Scaling Group` da forma correta
