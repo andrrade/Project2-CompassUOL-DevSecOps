@@ -44,23 +44,39 @@
 
 ## Criação do ASG (parte 6)
 
-1. 
+1. Selecione as subnets **privadas**
+2. Selecione `Balanced best effort`
+3. Clique em `Next`
+
 ![image](https://github.com/user-attachments/assets/d067d75f-ee7a-4b79-97ab-30c1cf401a89)
 
 ## Criação do ASG (parte 7)
+
+1. Selecione `Attach to an existing load balancer`
+2. Selecione `Choose from Classic Load Balancers`
+3. Selecione o Load Balancer criado nas [etapas anteriores](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/03-Projeto/02-Load-Balancer/README.md)
 
 ![image](https://github.com/user-attachments/assets/cb64c89b-bba7-4f5a-a480-886da38b3cdc)
 
 ## Criação do ASG (parte 8)
 
+1. Selecione `No VPC Lattice service to attach`
+
 ![image](https://github.com/user-attachments/assets/58ae61bf-55fc-4d95-a7b5-bff8f7418fa2)
 
 ## Criação do ASG (parte 9)
+
+> [!IMPORTANT]
+> Em `Health check grace period` selecione o tempo que desejar, o padrão é 300 segundos
+
+1. Marque o checkbox `Turn on Elastic Load Balancing health checks`
+2. Clique em `Next`
 
 ![image](https://github.com/user-attachments/assets/73195a47-a105-4f0b-865f-8b51dfa30656)
 
 ## Criação do ASG (parte 10)
 
+1. 
 ![image](https://github.com/user-attachments/assets/cbb2a6ba-2d0c-42c1-83ee-3432378a29ae)
 
 ## Criação do ASG (parte 11)
