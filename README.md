@@ -64,4 +64,7 @@
 * **Docker:** Também instalado separadamente para controle direto via CLI
 * **Editor de Código:** [Visual Studio Code](https://code.visualstudio.com/)
 
----
+<p align="center">
+  <br>
+  <img src="https://github.com/user-attachments/assets/42c57b43-523a-4df3-b5ba-51264a7e9467" alt="CompassUOL Logo" width="250">
+</p>
