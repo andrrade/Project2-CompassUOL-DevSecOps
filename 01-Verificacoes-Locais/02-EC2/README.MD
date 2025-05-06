@@ -3,7 +3,7 @@
 </p>
 <br>
 
-# Elastic Compute Cloud
+# Elastic Compute Cloud (EC2)
 
 > [!IMPORTANT]
 > Você não precisa seguir esses passos, apenas quis deixar na minha documentação como foi o meu passo a passo para criar o [UserData](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/00-Arquivos-do-Projeto/user_data.sh).
