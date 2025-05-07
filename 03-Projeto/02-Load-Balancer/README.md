@@ -1,8 +1,7 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ebd86139-6f74-4058-92a4-014b3f4cdba7" alt="Img LoadBalancer" width="150">
+  <img src="https://github.com/user-attachments/assets/628d5e71-495b-403d-a95c-778325f74c3a" alt="Img LoadBalancer" width="150">
 </p>
 <br>
-ERRO NA IMG
 
 # Load Balancer
 
@@ -11,15 +10,13 @@ ERRO NA IMG
 1. Abra o painel principal da AWS e pesquise por `Load Balancers`
 2. Clique em `Load balancers`
 
-![image](https://github.com/user-attachments/assets/d193c438-df73-4f10-af3a-cb5e1087c79e)
-ERRO NA IMG
+![img](https://github.com/user-attachments/assets/14ba0268-723e-4acf-83fc-ff6a4727031e)
 
 ## Criação do LB (parte 2)
 
 1. Clique em `Create load balancer`
 
-![image](https://github.com/user-attachments/assets/e3228b75-495e-40a4-a09e-d7b4325128f6)
-ERRO NA IMG
+![img](https://github.com/user-attachments/assets/7ee1903f-a24e-4366-a67b-7364458aad92)
 
 ## Criação do LB (parte 3)
 
@@ -29,8 +26,7 @@ ERRO NA IMG
 
 2. Clique em `Create`
 
-![image](https://github.com/user-attachments/assets/f31c36d1-2606-4569-9f64-a45b7f5d1e54)
-ERRO NA IMG
+![img](https://github.com/user-attachments/assets/6525aa67-9b5f-4d7b-af35-95677c3fb961)
 
 ## Criação do LB (parte 4)
 
