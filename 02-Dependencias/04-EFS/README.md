@@ -1,8 +1,7 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/549d5055-d9e2-4580-b791-a60c97c1842f" alt="Img EFS" width="150">
+  <img src="https://github.com/user-attachments/assets/1771a917-45b2-4bdd-82ed-91a6a2e50b80" alt="Img EFS" width="150">
 </p>
 <br>
-ERRO NA IMG
 
 # Elastic File System (EFS)
 
