@@ -2,6 +2,7 @@
   <img src="https://github.com/user-attachments/assets/549d5055-d9e2-4580-b791-a60c97c1842f" alt="Img EFS" width="150">
 </p>
 <br>
+ERRO NA IMG
 
 # Elastic File System (EFS)
 

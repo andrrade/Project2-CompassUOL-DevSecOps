@@ -2,6 +2,7 @@
   <img src="https://github.com/user-attachments/assets/ebd86139-6f74-4058-92a4-014b3f4cdba7" alt="Img LoadBalancer" width="150">
 </p>
 <br>
+ERRO NA IMG
 
 # Load Balancer
 
@@ -11,12 +12,14 @@
 2. Clique em `Load balancers`
 
 ![image](https://github.com/user-attachments/assets/d193c438-df73-4f10-af3a-cb5e1087c79e)
+ERRO NA IMG
 
 ## Criação do LB (parte 2)
 
 1. Clique em `Create load balancer`
 
 ![image](https://github.com/user-attachments/assets/e3228b75-495e-40a4-a09e-d7b4325128f6)
+ERRO NA IMG
 
 ## Criação do LB (parte 3)
 
@@ -27,6 +30,7 @@
 2. Clique em `Create`
 
 ![image](https://github.com/user-attachments/assets/f31c36d1-2606-4569-9f64-a45b7f5d1e54)
+ERRO NA IMG
 
 ## Criação do LB (parte 4)
 

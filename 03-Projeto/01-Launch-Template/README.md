@@ -2,6 +2,7 @@
   <img src="https://github.com/user-attachments/assets/93e40c5c-0cb2-45fa-9035-a925a4409869" alt="Img LaunchTemplate" width="150">
 </p>
 <br>
+ERRO NA IMG
 
 # Launch Template
 
@@ -11,12 +12,14 @@
 2. Clique em `Launch templates`
 
 ![image](https://github.com/user-attachments/assets/c003f33b-b3e9-4233-bf89-13a51cef61cf)
+ERRO NA IMG
 
 ## Criação do LT (parte 2)
 
 1. Clique em `Create launch template`
 
 ![image](https://github.com/user-attachments/assets/a7b1480c-ff1b-4e12-bb75-30acb7bd9292)
+ERRO NA IMG
 
 ## Criação do LT (parte 3)
 

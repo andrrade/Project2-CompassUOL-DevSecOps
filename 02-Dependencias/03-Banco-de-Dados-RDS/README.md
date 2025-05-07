@@ -2,6 +2,7 @@
   <img src="https://github.com/user-attachments/assets/20b848cd-1a4d-48e3-998a-2692046a21ff" alt="Img VPC" width="150">
 </p>
 <br>
+ERRO NA IMG
 
 # Relational Database Services (RDS)
 
@@ -33,6 +34,7 @@
 > no meu caso foi a `MySQL 8.4.5`
 
 ![image](https://github.com/user-attachments/assets/ed41a837-d5a7-4f83-919b-053de0d63c04)
+ERRO NA IMG
 
 ## Criação do BD (parte 5)
 
