@@ -1,8 +1,7 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8a11c9fa-b224-43ba-970b-183387f6bb7c" alt="Img KeyPairs" width="150">
+  <img src="https://github.com/user-attachments/assets/cbbe8851-3936-437b-80e2-cdbecc337338" alt="Img KeyPairs" width="150">
 </p>
 <br>
-ERRO NA IMG
 
 # Key pairs
 
