@@ -16,6 +16,10 @@
 > 
 > 4. Load Balancer
 
+Como irá funcionar os security groups:
+
+<img width="948" alt="sg" src="https://github.com/user-attachments/assets/b6117565-59bf-4b68-bad1-0c6d89e56e56" />
+
 ## Criação de SGs (parte 1)
 
 1. Abra o painel principal da AWS e pesquise por `Security groups`
@@ -214,10 +218,6 @@ IMAGEM PESQUISANDO O NOME DO SG
 | HTTP | 80    | `ec2_SG`                | Encaminhar requisições para EC2s |
 
 ![image](https://github.com/user-attachments/assets/9a7e931c-bb1a-4e7d-b527-d51d2f8b9544)
-
-Como irá funcionar os security groups:
-
-![image](https://github.com/user-attachments/assets/c7267fb9-ca8f-4972-83a4-14e9098d4f5d)
 
 > [!NOTE]
 > Após seguir esses passos, você consegue criar os security groups da forma correta!
