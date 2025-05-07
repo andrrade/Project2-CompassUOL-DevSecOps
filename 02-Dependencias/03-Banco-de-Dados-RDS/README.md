@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/20b848cd-1a4d-48e3-998a-2692046a21ff" alt="Img VPC" width="150">
+  <img src="https://github.com/user-attachments/assets/1fd4825f-d3ea-4997-9de4-7081c526cdee" alt="Img RDS" width="150">
 </p>
 <br>
 ERRO NA IMG
@@ -33,7 +33,7 @@ ERRO NA IMG
 > [!NOTE]
 > no meu caso foi a `MySQL 8.4.5`
 
-![image](https://github.com/user-attachments/assets/ed41a837-d5a7-4f83-919b-053de0d63c04)
+![image](https://github.com/user-attachments/assets/b54d0861-8e83-4fb9-b912-87ca6ee76180)
 ERRO NA IMG
 
 ## Criação do BD (parte 5)
