@@ -208,7 +208,7 @@ deletadas, ocorre a persistência dos dados.
 
 1. Além desse teste mostrado no vídeo, abri o painel do EFS e cliquei em `Network`
 
-![efs](https://github.com/user-attachments/assets/986521a4-233d-4d22-b088-7acdc71fce30)
+![efs](https://github.com/user-attachments/assets/6d63230d-6420-4a5a-bf5c-b8107303f800)
 
 É mostrado que as montagens foram feitas corretamente e estão `Available`
 
@@ -226,7 +226,7 @@ Já na linha azul, mostra o quando minha `CPU` está sendo usada, logo, não foi
 
 [🔼 Voltar ao Início](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/05-Testes/README.md#testar-e-documentar)
 
-![cw](https://github.com/user-attachments/assets/4e4070c5-8112-4157-933a-f3fba554217c)
+![cw](https://github.com/user-attachments/assets/d2fd2b69-4422-4c22-88d4-fbb0bd53e859)
 
 > [!NOTE]
 > Após seguir esses passos, você consegue `testar` corretamente e provar que o projeto está funcionando perfeitamente!
