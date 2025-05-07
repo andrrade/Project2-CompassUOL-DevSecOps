@@ -202,7 +202,7 @@ Para concluir os testes do ASGs, gravei um vídeo mostrando que as instâncias s
 outras não estão mais no estado `healthy`. Além disso, testei o EFS mostrando que mesmo após as instâncias serem
 deletadas, ocorre a persistência dos dados.
 
-[Clique aqui](https://github.com/user-attachments/assets/a5f938a2-d8f9-4d12-8c54-6b1a91a5c896) para ver o Vídeo validando os testes :)
+## [Clique aqui](https://github.com/user-attachments/assets/a5f938a2-d8f9-4d12-8c54-6b1a91a5c896) para ver o Vídeo validando os testes :)
 
 ## Teste do EFS (parte 2)
 
