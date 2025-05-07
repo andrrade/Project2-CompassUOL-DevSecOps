@@ -33,8 +33,8 @@
   - [Launch Template (LT)](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/03-Projeto/01-Launch-Template/README.md)
   - [Load Balancer (LB)](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/03-Projeto/02-Load-Balancer/README.md)
   - [Auto Scaling Group (ASG)](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/03-Projeto/03-Auto-Scaling-Group/README.md)
-- [Extra - Cloud Watch (CW)](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/04-Extra-Cloud-Watch/README.md)
-- [Testes](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/05-Testes/README.md)
+- [Testes](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/04-Testes/README.md)
+- [Extra - Cloud Watch (CW)](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/05-Extra-Cloud-Watch/README.md)
 - [Minha Apresentacao](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/06-Minha-Apresentacao/README.md)
 
 ---
