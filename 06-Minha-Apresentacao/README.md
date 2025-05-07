@@ -1,6 +1,3 @@
-> [!WARNING]
-> Não finalizado
-
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1e78298b-42fc-45e2-b5c9-41b5fcdc34ad" alt="Img Apresentacao" width="150">
 </p>
