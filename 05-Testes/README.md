@@ -10,9 +10,9 @@
 
 - [X] [**Load Balancer**](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/05-Testes/README.md#teste-do-load-balancer-lb)
 - [X] [**Wordpress**](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/05-Testes/README.md#teste-do-wordpress-wp)
-- [ ] [**Auto Scaling Groups**](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/05-Testes/README.md#teste-do-auto-scaling-groups-asgs)
-- [ ] [**EFS**](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/05-Testes/README.md#teste-do-elastic-file-system-efs)
-- [ ] [**Cloud Watch**](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/05-Testes/README.md#teste-do-cloud-watch-cw)
+- [X] [**Auto Scaling Groups**](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/05-Testes/README.md#teste-do-auto-scaling-groups-asgs)
+- [X] [**EFS**](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/05-Testes/README.md#teste-do-elastic-file-system-efs)
+- [X] [**Cloud Watch**](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/05-Testes/README.md#teste-do-cloud-watch-cw)
 
 # Teste do Load Balancer (LB)
 
@@ -209,13 +209,27 @@ deletadas, ocorre a persistência dos dados.
 
 ## Teste do EFS (parte 2)
 
-![efs](https://github.com/user-attachments/assets/4e4070c5-8112-4157-933a-f3fba554217c)
+1. Além desse teste mostrado no vídeo, abri o painel do EFS e cliquei em `Network`
+
+![efs](https://github.com/user-attachments/assets/986521a4-233d-4d22-b088-7acdc71fce30)
+
+É mostrado que as montagens foram feitas corretamente e estão `Available`
 
 # Teste do Cloud Watch (CW)
 
+Para testar o CloudWacth, fui no caminho:
+
+**CloudWatch > Alarms > Alarme de Escalonamento**
+
+Cliquei em `All alarms`
+
+Nessa tela ele mostra na linha vermelha o `85`, que foi o número que defini para alertar sobre o uso
+da `CPU`.
+Já na linha azul, mostra o quando minha `CPU` está sendo usada, logo, não foi necessário que ele alarmasse nada.
+
 [🔼 Voltar ao Início](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/05-Testes/README.md#testar-e-documentar)
 
-![cw](https://github.com/user-attachments/assets/986521a4-233d-4d22-b088-7acdc71fce30)
+![cw](https://github.com/user-attachments/assets/4e4070c5-8112-4157-933a-f3fba554217c)
 
 > [!NOTE]
 > Após seguir esses passos, você consegue `testar` corretamente e provar que o projeto está funcionando perfeitamente!
