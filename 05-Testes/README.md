@@ -8,11 +8,11 @@
 
 ## Testar e Documentar:
 
-- [X] **Load Balancer**
-- [X] **Wordpress**
-- [ ] **Auto Scaling Groups**
-- [ ] **EFS**
-- [ ] **Cloud Watch**
+- [X] [**Load Balancer**]()
+- [X] [**Wordpress**]()
+- [ ] [**Auto Scaling Groups**]()
+- [ ] [**EFS**]()
+- [ ] [**Cloud Watch**]()
 
 # Teste do Load Balancer (LB)
 
@@ -177,4 +177,21 @@
 > [!NOTE]
 > Após seguir esses passos, você consegue `testar` corretamente e provar que o projeto está funcionando perfeitamente!
 
+> [!IMPORTANT]
+> Os testes abaixo foram feitos com um vídeo: 
+
+## Teste do ASGs (parte 5) 
+
+# Teste do Elastic File System (EFS)
+
+## Teste do EFS (parte 1)
+
+Para concluir os testes do ASGs, gravei um vídeo mostrando que as instâncias são criadas imediatamente quando as
+outras não estão mais no estado `healthy`. Além disso, testei o EFS mostrando que mesmo após as instâncias serem
+deletadas, ocorre a persistência dos dados.
+
 [Clique aqui](https://github.com/user-attachments/assets/a5f938a2-d8f9-4d12-8c54-6b1a91a5c896) para ver o Vídeo validando os testes :)
+
+## Teste do EFS (parte 2)
+
+# Teste do Cloud Watch (CW)
