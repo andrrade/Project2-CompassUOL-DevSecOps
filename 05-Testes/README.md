@@ -8,13 +8,15 @@
 
 ## Testar e Documentar:
 
-- [X] [**Load Balancer**]()
-- [X] [**Wordpress**]()
-- [ ] [**Auto Scaling Groups**]()
-- [ ] [**EFS**]()
-- [ ] [**Cloud Watch**]()
+- [X] [**Load Balancer**](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/05-Testes/README.md#teste-do-load-balancer-lb)
+- [X] [**Wordpress**](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/05-Testes/README.md#teste-do-wordpress-wp)
+- [ ] [**Auto Scaling Groups**](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/05-Testes/README.md#teste-do-auto-scaling-groups-asgs)
+- [ ] [**EFS**](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/05-Testes/README.md#teste-do-elastic-file-system-efs)
+- [ ] [**Cloud Watch**](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/05-Testes/README.md#teste-do-cloud-watch-cw)
 
 # Teste do Load Balancer (LB)
+
+[🔼 Voltar ao Início](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/05-Testes/README.md#testar-e-documentar)
 
 ## Teste do LB (parte 1)
 
@@ -58,6 +60,8 @@
 > Aqui pudemos testar que o Load Balancer acessa corretamente as instâncias
 
 # Teste do WordPress (WP)
+
+[🔼 Voltar ao Início](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/05-Testes/README.md#testar-e-documentar)
 
 ## Teste do WP (parte 1)
 
@@ -155,6 +159,8 @@
 
 # Teste do Auto Scaling Groups (ASGs)
 
+[🔼 Voltar ao Início](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/05-Testes/README.md#testar-e-documentar)
+
 ## Teste do ASGs (parte 1)
 
 > [!NOTE]
@@ -184,6 +190,8 @@
 
 # Teste do Elastic File System (EFS)
 
+[🔼 Voltar ao Início](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/05-Testes/README.md#testar-e-documentar)
+
 ## Teste do EFS (parte 1)
 
 Para concluir os testes do ASGs, gravei um vídeo mostrando que as instâncias são criadas imediatamente quando as
@@ -195,3 +203,5 @@ deletadas, ocorre a persistência dos dados.
 ## Teste do EFS (parte 2)
 
 # Teste do Cloud Watch (CW)
+
+[🔼 Voltar ao Início](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/05-Testes/README.md#testar-e-documentar)
