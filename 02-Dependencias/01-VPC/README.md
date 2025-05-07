@@ -7,8 +7,7 @@
 
 Imagem de referência que está no enunciado: 
 
-![Image](https://github.com/user-attachments/assets/2c38ac2c-e576-4825-8d19-8aa948ad5cbf)
-ERRO NA IMG
+![img](https://github.com/user-attachments/assets/295c7f18-59a5-4291-8551-958e65352d1b)
 
 ## Criação de VPC (parte 1)
 
