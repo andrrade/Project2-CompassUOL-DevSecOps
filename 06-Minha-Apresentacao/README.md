@@ -15,6 +15,7 @@ principais partes do projeto
 - [X] [**Script UserData**](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/00-Arquivos-do-Projeto/user_data.sh)
 - [X] [**Mostrar vídeo do Auto Scaling Groups**](https://github.com/user-attachments/assets/a5f938a2-d8f9-4d12-8c54-6b1a91a5c896)
 - [X] **Cloud Watch**
+- [X] **VPC**
 - [X] **Mostrar Security Groups**
 
 ## 1. `ec2_SG` (Instâncias EC2 - WordPress - Subnet Privada)
