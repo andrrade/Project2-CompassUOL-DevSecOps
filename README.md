@@ -36,6 +36,7 @@
   - [Auto Scaling Group](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/03-Projeto/03-Auto-Scaling-Group/README.md)
 - [Extra - Cloud Watch](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/04-Extra-Cloud-Watch/README.md)
 - [Testes](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/05-Testes/README.md)
+- [Minha Apresentacao](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/06-Minha-Apresentacao/README.md)
 
 ---
 
