@@ -11,7 +11,8 @@
 - [ ] **Load Balancer**
 - [ ] **Auto Scaling Groups**
 - [ ] **Cloud Watch**
-
+- [ ] **EFS Montado**
+      
 # Testes
 
 ![image](https://github.com/user-attachments/assets/c34a022c-eb6e-481d-864e-d84d189b91f5)
