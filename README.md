@@ -19,7 +19,7 @@
   - [User Data](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/00-Arquivos-do-Projeto/user_data.sh)
 - [Verificações Locais](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/tree/main/01-Verificacoes-Locais)
   - [Wordpress](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/01-Verificacoes-Locais/01-Wordpress/README.md)
-  - [Elastic Compute Cloud (EC2)](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/01-Verificacoes-Locais/02-EC2/README.MD)
+  - [Elastic Compute Cloud (EC2)](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/01-Verificacoes-Locais/02-EC2/README.md)
 - [Dependências](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/tree/main/02-Dependencias)
   - [Virtual Private Cloud (VPC)](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/02-Dependencias/01-VPC/README.md)
   - [Security Groups (SG)](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/02-Dependencias/02-Security-Group/README.md)
