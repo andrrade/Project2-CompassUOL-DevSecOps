@@ -18,7 +18,7 @@
 
 Como irá funcionar os security groups:
 
-![image](https://github.com/user-attachments/assets/b6117565-59bf-4b68-bad1-0c6d89e56e56)
+
 
 ## Criação de SGs (parte 1)
 
