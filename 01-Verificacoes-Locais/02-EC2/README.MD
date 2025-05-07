@@ -2,7 +2,6 @@
   <img src="https://github.com/user-attachments/assets/7c8b297f-ebce-4cc8-9452-e53cc6110bff" alt="img EC2" width="250">
 </p>
 <br>
-ERRO NA IMG
 
 # Elastic Compute Cloud (EC2)
 
