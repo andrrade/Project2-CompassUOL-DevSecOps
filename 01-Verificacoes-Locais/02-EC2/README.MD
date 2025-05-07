@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/7c8b297f-ebce-4cc8-9452-e53cc6110bff" alt="img EC2" width="250">
+  <img src="https://github.com/user-attachments/assets/78010828-d614-4996-a4d3-6cb6ab4db692" alt="img EC2" width="250">
 </p>
 <br>
 
@@ -80,5 +80,4 @@
 só não vou documentar tudo aqui porque todos os comandos utilizados estão no user data.
 > Um exemplo dos meus testes:
 
-![image](https://github.com/user-attachments/assets/d6ead6b2-226e-444c-be22-fd1034a3134b)
-ERRO NA IMG
+![image](https://github.com/user-attachments/assets/c4ae409f-70f7-41b2-a1bf-8c21ad0724bb)
