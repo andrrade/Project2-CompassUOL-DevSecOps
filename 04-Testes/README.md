@@ -24,24 +24,26 @@
 
 # Teste do WordPress (parte 2)
 
-1. No canto inferior, selecione `Target instances` e verifique se o healthy status está como
-`In-service`
+1. Selecione o checkbox do `Load Balancer` criado
 
 ![image](https://github.com/user-attachments/assets/8c49e671-29ae-4986-94fc-251e9a31bedc)
 
 # Teste do WordPress (parte 3)
 
-1. Copie o `DNS` do Load Balancer
+1. No canto inferior, selecione `Target instances` e verifique se o healthy status está como
+`In-service`
 
 ![image](https://github.com/user-attachments/assets/6cf1c1b5-ae73-4934-8e26-a2969d71144a)
 
 # Teste do WordPress (parte 4)
 
-1. Irá abrir a página inicial do `WordPress`
+1. Copie o `DNS` do Load Balancer
 
 ![image](https://github.com/user-attachments/assets/45b52f49-3c08-4045-8534-22b42461781a)
 
 # Teste do WordPress (parte 5)
+
+1. Irá abrir a página inicial do `WordPress`
 
 ![image](https://github.com/user-attachments/assets/64a073d6-0cb7-428b-a5a8-e101f882d0c5)
 
