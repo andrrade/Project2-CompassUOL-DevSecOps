@@ -44,7 +44,7 @@
 ## Criação do LT (parte 5)
 
 1. Selecione o tipo da instância como `t2.micro`
-2. Selecione a key pair criada nas [etapas anteriores](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/02-Dependencias/05-Key-pairs/README.md)
+2. Selecione a key pair criada nas etapas anteriores
 
 ![image](https://github.com/user-attachments/assets/ebc0f591-b28b-4486-8e82-8a41dc31d04d)
 

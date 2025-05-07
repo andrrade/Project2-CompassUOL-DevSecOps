@@ -42,7 +42,7 @@
 ## Criação do LB (parte 5)
 
 1. Em scheme, selecione `Internet-facing`
-2. Em `VPC`, selecione a que foi criada nas [etapas anteriores](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/02-Dependencias/01-VPC/README.md)
+2. Em `VPC`, selecione a que foi criada nas etapas anteriores
 
 ![image](https://github.com/user-attachments/assets/eae02eb2-f122-4f3d-a2d2-357a12821839)
 

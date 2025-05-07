@@ -45,13 +45,13 @@
 
 1. Selecione o tipo `t2.micro`
 
-2. Selecione a `Key pair` criada nas [etapas anteriores](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/02-Dependencias/05-Key-pairs/README.md)
+2. Selecione a `Key pair` criada nas etapas anteriores
 
 ![image](https://github.com/user-attachments/assets/c65b014b-1032-4a5c-a991-e4eaabd5db76)
 
 ## Criação da EC2 (parte 6)
 
-1. Selecione a `VPC` criada nas [etapas anteriores](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/02-Dependencias/01-VPC/README.md)
+1. Selecione a `VPC` criada nas etapas anteriores
 2. Deixe a Subnet como `public1-us-east-1a`
 3. Em Auto-assing public IP deixe como `Enable`
 
