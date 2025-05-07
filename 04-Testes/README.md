@@ -7,11 +7,12 @@
 <br>
 
 ## Testar e Documentar:
-- [ ] **Wordpress**
-- [ ] **Load Balancer**
+
+- [X] **Load Balancer**
+- [X] **Wordpress**
 - [ ] **Auto Scaling Groups**
-- [ ] **Cloud Watch**
 - [ ] **EFS**
+- [ ] **Cloud Watch**
 
 # Teste do Load Balancer (LB)
 
