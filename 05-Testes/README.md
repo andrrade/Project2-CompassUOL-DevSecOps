@@ -2,10 +2,9 @@
 > Não finalizado
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1d3c21b1-3a90-4616-9717-e641f9be6b1f" alt="Img Testes" width="150">
+  <img src="https://github.com/user-attachments/assets/5937b1ac-e32a-458c-94d7-c9f430fe63cb" alt="Img Testes" width="150">
 </p>
 <br>
-ERRO NA IMG
 
 ## Testar e Documentar:
 - [ ] **Wordpress**
