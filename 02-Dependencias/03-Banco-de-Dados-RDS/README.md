@@ -1,8 +1,7 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1fd4825f-d3ea-4997-9de4-7081c526cdee" alt="Img RDS" width="150">
+  <img src="https://github.com/user-attachments/assets/ff4e0249-512e-4a4b-909f-df91c62669d0" alt="Img RDS" width="150">
 </p>
 <br>
-ERRO NA IMG
 
 # Relational Database Services (RDS)
 
@@ -33,8 +32,7 @@ ERRO NA IMG
 > [!NOTE]
 > no meu caso foi a `MySQL 8.4.5`
 
-![image](https://github.com/user-attachments/assets/b54d0861-8e83-4fb9-b912-87ca6ee76180)
-ERRO NA IMG
+![img](https://github.com/user-attachments/assets/bed79dd4-91b5-413f-b31c-2503ae4790d7)
 
 ## Criação do BD (parte 5)
 
