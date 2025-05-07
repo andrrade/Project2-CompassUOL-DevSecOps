@@ -3,7 +3,7 @@
 </p>
 <br>
 
-# Security Groups
+# Security Groups (SG)
 
 > [!NOTE]
 > Criaremos 4 Security Groups:

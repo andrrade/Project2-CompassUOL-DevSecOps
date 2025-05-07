@@ -5,7 +5,7 @@
 
 # Key pairs
 
-## Criação da chave (parte 1)
+## Criação da KP (parte 1)
 
 1. Abra o painel principal da AWS e pesquise por `Key pairs`
 2. Clique em `Key pairs`
@@ -13,13 +13,13 @@
 ![image](https://github.com/user-attachments/assets/3647d82f-58fe-44f9-bd64-a68206812e04)
 
 
-## Criação da chave (parte 2)
+## Criação da KP (parte 2)
 
 1. Clique em `Create key pairs`
 
 ![image](https://github.com/user-attachments/assets/f190a7f3-8566-4084-89b8-61f7c555f72e)
 
-## Criação da chave (parte 3)
+## Criação da KP (parte 3)
 
 > [!NOTE]
 > Você pode escolher os nomes que quiser, os que estou deixando documentados foram os que eu usei.

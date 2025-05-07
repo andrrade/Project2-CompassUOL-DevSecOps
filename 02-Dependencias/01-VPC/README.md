@@ -3,7 +3,7 @@
 </p>
 <br>
 
-# VPC
+# Virtual Private Cloud (VPC)
 
 Imagem de referência que está no enunciado: 
 
