@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fa5618a7-1c08-408c-b6ed-750b2d5aeed0" alt="Img WordPress" width="150">
+  <img src="https://github.com/user-attachments/assets/f3886d6a-2b6a-4af9-bd37-cea88e43451e" alt="Img WordPress" width="150">
 </p>
 <br>
 
