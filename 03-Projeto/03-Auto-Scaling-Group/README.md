@@ -1,8 +1,7 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/48ed9007-ee4e-4836-96af-0f8cf9ed0d81" alt="Img KeyPairs" width="150">
+  <img src="https://github.com/user-attachments/assets/6ab9b9f1-fd51-4c5b-8a2b-114083bcf2a7" alt="Img ASG" width="150">
 </p>
 <br>
-ERRO NA IMG
 
 # Auto Scaling Group
 
@@ -11,15 +10,13 @@ ERRO NA IMG
 1. Abra o painel principal da AWS e pesquise por `Auto scaling groups`
 2. Clique em `Auto scaling groups`
 
-![image](https://github.com/user-attachments/assets/02d1cf93-a2ac-4149-9b13-2c9f21062117)
-ERRO NA IMG
+![img](https://github.com/user-attachments/assets/d8ee1450-4d1c-42e5-934d-60f405ae0ec5)
 
 ## Criação do ASG (parte 2)
 
 1. Clique em `Create Auto Scaling group`
 
-![image](https://github.com/user-attachments/assets/529c97f0-80a9-42cb-9ea9-30e9635d5c11)
-ERRO NA IMG
+![img](https://github.com/user-attachments/assets/d0e3a56d-f725-4f93-b20f-ab6c6ddb1d5e)
 
 ## Criação do ASG (parte 3)
 
