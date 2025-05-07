@@ -164,24 +164,31 @@
 ## Teste do ASGs (parte 1)
 
 > [!NOTE]
-> Voltando para a AWS, vamos apagar as instâncias para 
+> Voltando para a AWS, vamos apagar as instâncias para ver se elas sobem automaticamente
+
+1. Clique em `Instances`
+2. Selecione as instâncias para apagar
+3. Clique em `Instance state`
 
 ![image](https://github.com/user-attachments/assets/8f6a7ecb-78ce-4a79-8ad8-6b1d7cfc0b15)
 
 ## Teste do ASGs (parte 2)
 
+1. Clique em `Terminate (delete) instance`
+
 ![image](https://github.com/user-attachments/assets/8d188c98-c56e-455a-9e5b-0941dcee0ceb)
 
 ## Teste do ASGs (parte 3)
+
+1. Clique em `Terminate (delete)`
 
 ![image](https://github.com/user-attachments/assets/c91168fe-00aa-4544-89ff-289aaf6fb1ca)
 
 ## Teste do ASGs (parte 4)
 
-![image](https://github.com/user-attachments/assets/b2c8ea70-0950-4f30-b877-5f592e742422)
+1. Você verá uma mensagem de sucesso
 
-> [!NOTE]
-> Após seguir esses passos, você consegue `testar` corretamente e provar que o projeto está funcionando perfeitamente!
+![image](https://github.com/user-attachments/assets/b2c8ea70-0950-4f30-b877-5f592e742422)
 
 > [!IMPORTANT]
 > Os testes abaixo foram feitos com um vídeo: 
@@ -202,6 +209,13 @@ deletadas, ocorre a persistência dos dados.
 
 ## Teste do EFS (parte 2)
 
+![efs](https://github.com/user-attachments/assets/4e4070c5-8112-4157-933a-f3fba554217c)
+
 # Teste do Cloud Watch (CW)
 
 [🔼 Voltar ao Início](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/05-Testes/README.md#testar-e-documentar)
+
+![cw](https://github.com/user-attachments/assets/986521a4-233d-4d22-b088-7acdc71fce30)
+
+> [!NOTE]
+> Após seguir esses passos, você consegue `testar` corretamente e provar que o projeto está funcionando perfeitamente!
