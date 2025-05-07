@@ -16,17 +16,28 @@
 
 # Teste do WordPress (parte 1)
 
+1. Abra o painel principal da AWS e pesquise por `Load Balancers`
+
+2. Clique em `Load Balancers`:
+
 ![image](https://github.com/user-attachments/assets/c34a022c-eb6e-481d-864e-d84d189b91f5)
 
 # Teste do WordPress (parte 2)
+
+1. No canto inferior, selecione `Target instances` e verifique se o healthy status está como
+`In-service`
 
 ![image](https://github.com/user-attachments/assets/8c49e671-29ae-4986-94fc-251e9a31bedc)
 
 # Teste do WordPress (parte 3)
 
+1. Copie o `DNS` do Load Balancer
+
 ![image](https://github.com/user-attachments/assets/6cf1c1b5-ae73-4934-8e26-a2969d71144a)
 
 # Teste do WordPress (parte 4)
+
+1. Irá abrir a página inicial do `WordPress`
 
 ![image](https://github.com/user-attachments/assets/45b52f49-3c08-4045-8534-22b42461781a)
 
