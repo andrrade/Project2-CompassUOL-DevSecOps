@@ -2,6 +2,7 @@
   <img src="https://github.com/user-attachments/assets/7c8b297f-ebce-4cc8-9452-e53cc6110bff" alt="img EC2" width="250">
 </p>
 <br>
+ERRO NA IMG
 
 # Elastic Compute Cloud (EC2)
 
@@ -81,3 +82,4 @@ só não vou documentar tudo aqui porque todos os comandos utilizados estão no 
 > Um exemplo dos meus testes:
 
 ![image](https://github.com/user-attachments/assets/d6ead6b2-226e-444c-be22-fd1034a3134b)
+ERRO NA IMG
