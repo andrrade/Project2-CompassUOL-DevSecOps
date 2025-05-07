@@ -18,7 +18,7 @@
 
 Como irá funcionar os security groups:
 
-<img width="948" alt="sg" src="https://github.com/user-attachments/assets/b6117565-59bf-4b68-bad1-0c6d89e56e56" />
+![image](https://github.com/user-attachments/assets/b6117565-59bf-4b68-bad1-0c6d89e56e56)
 
 ## Criação de SGs (parte 1)
 
@@ -146,8 +146,8 @@ IMAGEM PESQUISANDO O NOME DO SG
 
 | Tipo         | Porta | Origem              | Motivo                                |
 | ------------ | ----- | ------------------- | ------------------------------------- |
-| SSH          | 22    | Seu IP (ou Bastion) | Receber tráfego do Load Balancer      |
-| HTTP         | 80    | `lb_SG`             | Acesso para manutenção                |
+| SSH          | 22    | Seu IP (ou Bastion) | Acesso para manutenção                |
+| HTTP         | 80    | `lb_SG`             | Receber tráfego do Load Balancer      |
 | NFS          | 2049  | `efs_SG`            | Montagem do EFS                       |
 
 ![image](https://github.com/user-attachments/assets/6e4a44d6-9ac7-4c4a-98ce-56de1fbb62bd)
