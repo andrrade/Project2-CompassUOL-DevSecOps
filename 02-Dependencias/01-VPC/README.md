@@ -29,6 +29,11 @@ Imagem de referência que está no enunciado:
 
 2. Dê um nome para a VPC
 
+`project2`
+
+> [!NOTE]
+> Pode colocar o nome que quiser, apenas coloquei o meu para documentação
+
 ![image](https://github.com/user-attachments/assets/3e4a19e6-ccc5-4623-a14c-084815dcf988)
 
 ## Criação de VPC (parte 4)
@@ -64,4 +69,4 @@ Mostrando como fica o preview:
 ![image](https://github.com/user-attachments/assets/97a23f6f-1d1a-4bde-9e47-aaf71d3dca05)
 
 > [!NOTE]
-> Após esses passos, você terá criado sua VPC corretamente!
+> Após esses passos, você terá criado sua `VPC` corretamente!
