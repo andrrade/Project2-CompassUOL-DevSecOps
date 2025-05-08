@@ -6,16 +6,15 @@
 # Apresentação
 
 > [!NOTE]
-> Criei esse arquivo onde vou colocar as principais informações e documentar as
-principais partes do projeto
+> Criei esse README.md para fazer um passo a passo do que será minha apresentação de 3 minutos:
 
 ## Pontos para apresentação
 - [X] **Mostrar que acesso as instâncias pelo DNS do LB**
 - [X] **Mostrar o Wordpress Funcionando**
-- [X] [**Script UserData**](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/00-Arquivos-do-Projeto/user_data.sh)
-- [X] [**Mostrar vídeo do Auto Scaling Groups**](https://github.com/user-attachments/assets/a5f938a2-d8f9-4d12-8c54-6b1a91a5c896)
-- [X] **Cloud Watch**
-- [X] **VPC**
+- [X] **Mostrar [Script UserData](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/00-Arquivos-do-Projeto/user_data.sh)** (Extra)
+- [X] **Mostrar [vídeo do Auto Scaling Groups](https://github.com/user-attachments/assets/a5f938a2-d8f9-4d12-8c54-6b1a91a5c896)**
+- [X] **Mostrar Cloud Watch** (Extra)
+- [X] **Mostrar VPC**
 - [X] **Mostrar Security Groups**
 
 ## 1. `ec2_SG` (Instâncias EC2 - WordPress - Subnet Privada)
