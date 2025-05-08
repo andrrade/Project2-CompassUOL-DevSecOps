@@ -21,7 +21,7 @@
 ## Criação do ASG (parte 3)
 
 > [!NOTE]
-> Você pode escolher os nomes que quiser, os que estou deixando documentados foram os que eu usei.
+> Você pode escolher o nome que quiser, o que estou deixando documentado foi o que eu usei.
 
 `ASG-Project2`
 
@@ -66,7 +66,7 @@
 
 ## Criação do ASG (parte 9)
 
-> [!IMPORTANT]
+> [!NOTE]
 > Em `Health check grace period` selecione o tempo que desejar, o padrão é 300 segundos
 
 1. Marque o checkbox `Turn on Elastic Load Balancing health checks`
