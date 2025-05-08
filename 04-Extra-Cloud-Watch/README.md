@@ -26,7 +26,7 @@
 `Alarme sobre o uso da CPU`
 
 > [!NOTE]
-> Você pode escolher os nomes que quiser, os que estou deixando documentados foram os que eu usei.
+> Você pode escolher o nome que quiser, o que estou deixando documentado foi o que eu usei.
 
 3. Em Take the action, selecione `2`
 
