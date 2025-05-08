@@ -148,7 +148,7 @@ IMAGEM PESQUISANDO O NOME DO SG
 
 | Tipo         | Porta | Origem              | Motivo                                |
 | ------------ | ----- | ------------------- | ------------------------------------- |
-| SSH          | 22    | Seu IP (ou Bastion) | Acesso para manutenção                |
+| SSH          | 22    | My IP (ou Bastion)  | Acesso para manutenção                |
 | HTTP         | 80    | `lb_SG`             | Receber tráfego do Load Balancer      |
 | NFS          | 2049  | `efs_SG`            | Montagem do EFS                       |
 
@@ -222,4 +222,4 @@ IMAGEM PESQUISANDO O NOME DO SG
 ![image](https://github.com/user-attachments/assets/9a7e931c-bb1a-4e7d-b527-d51d2f8b9544)
 
 > [!NOTE]
-> Após seguir esses passos, você consegue criar os security groups da forma correta!
+> Após seguir esses passos, você consegue criar os `Security Groups` da forma correta!
