@@ -21,7 +21,7 @@
 ## Criação do EFS (parte 3)
 
 > [!NOTE]
-> Você pode escolher os nomes que quiser, os que estou deixando documentados foram os que eu usei.
+> Você pode escolher o nome que quiser, o que estou deixando documentado foI o que eu usei.
 
 1. Dê um nome para o file system
 
@@ -54,7 +54,7 @@
 
 1. Em throughput mode, selecione `Bursting`
 
-2. Em performance mode, selecione `General Purpose (Recommended)
+2. Em performance mode, selecione `General Purpose (Recommended)`
 
 ![image](https://github.com/user-attachments/assets/1c8396ef-132b-40f3-8c49-7d3b7fcc7bcf)
 
@@ -75,10 +75,10 @@
 
 1. Selecione a `VPC` criada anteriormente
 2. Selecione `us-east-1a`   
-3. Selecione a subnet privada da us-east-1a
+3. Selecione a **subnet privada** da us-east-1a
 4. Escolha o SG do EFS: `efs_SG`
 5. Selecione `us-east-1b`
-6. Selecione a subnet privada da us-east-1b
+6. Selecione a **subnet privada** da us-east-1b
 7. Escolha o SG do EFS: `efs_SG`
 8. Clique em `next`
 
@@ -86,7 +86,7 @@
 
 ## Criação do EFS (parte 9)
 
-1. Coloque políticas, se quiser, e clique em next
+1. Coloque políticas, se quiser, e clique em `Next`
 
 > [!NOTE]
 > Eu optei por não colocar.
@@ -95,7 +95,7 @@
 
 ## Criação do EFS (parte 10)
 
-1. Na página que abrir, só clique em next
+1. Na página que abrir, só clique em `Create`
 
 ![image](https://github.com/user-attachments/assets/395cdbd5-63a5-4e9c-ae29-4c271e7dd980)
 
@@ -109,4 +109,4 @@
 ![image](https://github.com/user-attachments/assets/e1a3bad4-060d-4cef-9ee0-25023babcde2)
 
 > [!NOTE]
-> Após seguir esses passos, você consegue criar o EFS da forma correta!
+> Após seguir esses passos, você consegue criar o `EFS` da forma correta!
