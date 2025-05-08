@@ -53,7 +53,7 @@
 
 ![image](https://github.com/user-attachments/assets/64a073d6-0cb7-428b-a5a8-e101f882d0c5)
 
-> [!NOTE]
+> [!IMPORTANT]
 > Aqui pudemos testar que o Load Balancer acessa corretamente as instâncias
 
 # Teste do WordPress (WP)
@@ -64,6 +64,9 @@
 
 > [!NOTE]
 > Agora vamos testar se conseguimos criar um post no WordPress
+
+> [!NOTE]
+> Estou documentando os nomes que eu usei, você pode escolher os que quiser
 
 1. Dê um título para o site
 
