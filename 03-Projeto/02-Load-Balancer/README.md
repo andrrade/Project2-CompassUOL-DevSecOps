@@ -31,7 +31,7 @@
 ## Criação do LB (parte 4)
 
 > [!NOTE]
-> Você pode escolher os nomes que quiser, os que estou deixando documentados foram os que eu usei.
+> Você pode escolher o nome que quiser, o que estou deixando documentado foi o que eu usei.
 
 1. Dê um nome para o load balancer
 
