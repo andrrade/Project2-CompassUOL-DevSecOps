@@ -54,7 +54,7 @@
 ![image](https://github.com/user-attachments/assets/64a073d6-0cb7-428b-a5a8-e101f882d0c5)
 
 > [!IMPORTANT]
-> Aqui pudemos testar que o Load Balancer acessa corretamente as instâncias
+> Aqui pudemos testar que o `Load Balancer` acessa corretamente as instâncias
 
 # Teste do WordPress (WP)
 
@@ -152,10 +152,10 @@
 
 ## Teste do WP (parte 10)
 
-> [!NOTE]
-> Prontinho, seu post foi publicado e foi testado que o WP está funcionando corretamente!
-
 ![image](https://github.com/user-attachments/assets/3f4d0a61-4b24-4b95-8df7-981abe6592a2)
+
+> [!IMPORTANT]
+> Prontinho, seu post foi publicado e foi testado que o `WordPress` está funcionando corretamente!
 
 # Teste do Auto Scaling Groups (ASGs)
 
@@ -209,7 +209,9 @@ deletadas, ocorre a persistência dos dados.
 
 ## Teste do EFS (parte 2)
 
-1. Além desse teste mostrado no vídeo, abri o painel do EFS e cliquei em `Network`
+Além desse teste mostrado no vídeo...
+
+1. Abra o painel do EFS e clique em `Network`
 
 ![efs](https://github.com/user-attachments/assets/6d63230d-6420-4a5a-bf5c-b8107303f800)
 
