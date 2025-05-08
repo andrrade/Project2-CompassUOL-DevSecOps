@@ -64,6 +64,12 @@
 > [!NOTE]
 > Fiz um desenho nos Security Groups, e para isso utilizei a ferramenta [tldraw](https://www.tldraw.com)
 
+---
+
+Imagem de referência que está no enunciado: 
+
+![img](https://github.com/user-attachments/assets/295c7f18-59a5-4291-8551-958e65352d1b)
+
 <p align="center">
   <br>
   <img src="https://github.com/user-attachments/assets/79a2e995-a1be-4192-9ded-771004ef7417" alt="CompassUOL Logo" width="250">
