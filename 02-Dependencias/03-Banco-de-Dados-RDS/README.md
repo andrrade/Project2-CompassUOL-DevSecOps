@@ -42,7 +42,7 @@
 
 ## Criação do BD (parte 6)
 
-1. Selecione `Single-AZ DB instance deployment (1 instance)
+1. Selecione `Single-AZ DB instance deployment (1 instance)`
 
 ![image](https://github.com/user-attachments/assets/7fb908da-8571-4478-8e4e-23f20ada5245)
 
@@ -63,8 +63,8 @@
 4. Crie uma senha forte
 5. Repita a senha criada
 
-> [!NOTE]
-> Lembre-se de guardar essas informações
+> [!IMPORTANT]
+> Lembre-se de guardar essas informações, você irá usá-las no UserData
 
 ![image](https://github.com/user-attachments/assets/fded35f3-3812-45a7-afcc-223eaeb2cbe6)
 
@@ -118,10 +118,11 @@
 
 > [!IMPORTANT]
 > Isso é crucial para evitar erros!
+> Lembre-se de guardar essa informação, você irá usá-la no UserData
 
 2. Desabilite o backup automático
 
-> [!IMPORTANT]
+> [!NOTE]
 > É sempre importante evitar gastos desnecessários para esse projeto
 
 ![image](https://github.com/user-attachments/assets/4af8ad2f-e55f-4288-833a-15de4cfd36c9)
@@ -133,4 +134,4 @@
 ![image](https://github.com/user-attachments/assets/2adf4f5f-44b2-4dd5-a412-0456c4f04254)
 
 > [!NOTE]
-> Após seguir esses passos, você consegue criar o banco de dados da forma correta!
+> Após seguir esses passos, você consegue criar o `RDS` da forma correta!
