@@ -68,7 +68,10 @@
 
 Imagem de referência que está no enunciado: 
 
-![img](https://github.com/user-attachments/assets/295c7f18-59a5-4291-8551-958e65352d1b)
+<p align="center">
+  <br>
+  <img src="https://github.com/user-attachments/assets/295c7f18-59a5-4291-8551-958e65352d1b" alt="Imagem da Arquitetura do Projeto">
+</p>
 
 <p align="center">
   <br>
