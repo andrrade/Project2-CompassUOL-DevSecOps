@@ -127,8 +127,6 @@ as regras já existentes, isso será importante para os próximos passos.
 
 2. Clique no ID do sg
 
-IMAGEM PESQUISANDO O NOME DO SG
-
 ## Criação de SGs (parte 9)
 
 1. Em inbound rules, clique em `Edit inbound rules`
