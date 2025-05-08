@@ -58,7 +58,7 @@ Em subnet, selecione `Don´t include in launch template`
 
 ## Criação do LT (parte 7)
 
-1. Coloque as tags necessárias e clique em `Add new tag`
+1. Clique em `Add new tag` e coloque as tags necessárias
 
 > [!NOTE]
 > Por motivos de segurança, não posso mostrá-las
