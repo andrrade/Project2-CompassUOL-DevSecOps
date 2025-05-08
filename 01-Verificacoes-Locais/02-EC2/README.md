@@ -9,6 +9,7 @@
 > Você não precisa seguir esses passos, apenas quis deixar na minha documentação como foi o meu passo a passo para criar o [UserData](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/00-Arquivos-do-Projeto/user_data.sh).
 >
 > Para isso, primeiro subi a instância e executei comando por comando até rodar, depois disso, anotei eles e coloquei no meu [UserData](https://github.com/andrrade/Project2-CompassUOL-DevSecOps/blob/main/00-Arquivos-do-Projeto/user_data.sh), adicionei algumas variáveis para facilitar o uso e funcionou corretamente.
+> Antes de fazer essa EC2 fiz todas as etapas das dependências, por isso vou citar "etapas anteriores"
 
 ## Criação da EC2 (parte 1)
 
@@ -26,7 +27,7 @@
 
 ## Criação da EC2 (parte 3)
 
-1. Coloque as tags necessárias e clique em `Add new tag`
+1. Clique em `Add new tag` e adicione as tags necessárias
 
 > [!NOTE]
 > Por motivos de segurança, não posso mostrá-las
