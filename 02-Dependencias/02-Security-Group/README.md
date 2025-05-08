@@ -44,16 +44,17 @@ as regras já existentes, isso será importante para os próximos passos.
 > Você pode escolher os nomes que quiser, os que estou deixando documentados foram os que eu usei.
 
 > [!NOTE]
-> Esse é o Security Group das Instâncias EC2:
+> Esse é o Security Group das Instâncias EC2 para:
 
 1. Dê um nome para o security group
 
 `ec2_SG`
 
 2. Dê uma descrição
+   
 `ec2`
 
-3. Selecione a VPC criada nos passos anteriores
+4. Selecione a VPC criada nos passos anteriores
 
 ![ec2](https://github.com/user-attachments/assets/e0b39da7-2d7e-4c1c-b296-7aed930cf011)
 
@@ -73,11 +74,12 @@ as regras já existentes, isso será importante para os próximos passos.
 `rds_SG`
 
 2. Dê uma descrição
+   
 `rds`
 
-3. Selecione a VPC criada nos passos anteriores
+4. Selecione a VPC criada nos passos anteriores
 
-4. Clique em `Create security group`
+5. Clique em `Create security group`
 
 ![rds](https://github.com/user-attachments/assets/8aaf5f79-ef03-413e-9f21-c97a21448f65)
 
