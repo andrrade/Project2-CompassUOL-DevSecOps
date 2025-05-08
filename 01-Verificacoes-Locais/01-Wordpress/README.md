@@ -22,7 +22,7 @@ O WordPress é **dinâmico**, ou seja, ele não armazena páginas em arquivos es
 
 ## Criação do WordPress localmente
 
-1. Acesse documentação oficial:
+1. Acesse a documentação oficial:
 https://hub.docker.com/_/wordpress
 
 2. Role a tela e copie esse código
@@ -45,7 +45,7 @@ cd Project2
 ls
 ```
 
-5. Crie um arquivo chamado `docker-compose.yml` e abri ele no VSCode:
+5. Crie um arquivo chamado `docker-compose.yml` e abra ele no VSCode:
 
 ```fish
 code docker-compose.yml
@@ -106,16 +106,17 @@ docker-compose up -d
 
 ![image](https://github.com/user-attachments/assets/bc776630-1cb7-4a19-a3a9-e7ec35d9b5b6)
 
-9. Acesse meu navegador com:
+9. Acesse o navegador com:
 
 ```fish
 localhost:8080
 ```
 
 10. Selecione o idioma `Português do Brasil`
+    
 ![image](https://github.com/user-attachments/assets/b74d32cb-69c8-403d-9c04-b4f747d9432c)
 
-11. Role a tela e selecione `Continuar`
+12. Role a tela e selecione `Continuar`
 
 ![image](https://github.com/user-attachments/assets/da16c74e-238c-4b00-9cc6-7f2b6a443a24)
 
@@ -129,7 +130,7 @@ da tela:
 
 ![image](https://github.com/user-attachments/assets/336d963f-9f79-4c6d-ad0c-8594f531a509)
 
-14. Na página de login, insira o nome do usuário e senha criados nas etapas anteriores.
+14. Na página de login, insira o nome do usuário e senha, criados nas etapas anteriores.
 Selecione `Remember me` e depois clique em `Log In`:
 
 ![image](https://github.com/user-attachments/assets/a7a25533-7eef-4d0c-9525-cf7a2d614da1)
@@ -139,4 +140,4 @@ Selecione `Remember me` e depois clique em `Log In`:
 ![image](https://github.com/user-attachments/assets/0ac5f771-c3e4-4c71-a6a8-549329e92637)
 
 > [!NOTE]
-> Prontinho, com esses passos você conseguiu testar e fazer que funcionasse localmente o `WordPress`!
+> Prontinho, com esses passos você consegue testar e fazer com que funcione localmente o `WordPress`!
