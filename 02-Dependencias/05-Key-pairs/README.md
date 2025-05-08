@@ -22,7 +22,7 @@
 ## Criação da KP (parte 3)
 
 > [!NOTE]
-> Você pode escolher os nomes que quiser, os que estou deixando documentados foram os que eu usei.
+> Você pode escolher o nome que quiser, o que estou deixando documentado foi o que eu usei.
 
 1. Dê um nome para sua chave
 
@@ -44,4 +44,4 @@ acabei mudando.
 ![image](https://github.com/user-attachments/assets/ae7c614a-fb9c-4f82-bd92-921afb959020)
 
 > [!NOTE]
-> Após seguir esses passos, você consegue criar a key pair` da forma correta!
+> Após seguir esses passos, você consegue criar a `Key pair` da forma correta!
